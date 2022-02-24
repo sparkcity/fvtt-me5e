@@ -95,7 +95,7 @@
 	"author": "Parker (sparkcities#2000)",
 	"version": "1.9.0",
 	"minimumCoreVersion": "0.7.5",
-	"compatibleCoreVersion": "0.7.7",
+	"compatibleCoreVersion": "9",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
 	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.json",
 	"download": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.zip",
