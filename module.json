@@ -93,7 +93,7 @@
 
 	"system": "dnd5e",
 	"author": "Parker (sparkcities#2000)",
-	"version": "1.9.0",
+	"version": "1.10.0",
 	"minimumCoreVersion": "0.7.5",
 	"compatibleCoreVersion": "9",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
