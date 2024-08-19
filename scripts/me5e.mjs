@@ -1,21 +1,21 @@
 Hooks.once("init", () => {
   // Add ME5E 'spellcasting' schools
   CONFIG.DND5E.spellSchools.btc = {
-    label: "ME5E.SpSchBiotics",
+    label: "hBiotics",
     icon: "assets\\icons\\ablbiotics.svg",
     fullKey: "biotics",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.cmt = {
-    label: "ME5E.SpSchCombat",
+    label: "Combat Powers",
     icon: "assets\\icons\\ablcombat.svg",
     fullKey: "combat powers",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.tec = {
-    label: "ME5E.SpSchTech",
+    label: "Tech",
     icon: "assets\\icons\\abltech.svg",
     fullKey: "tech",
     reference: "",
@@ -53,21 +53,6 @@ Hooks.once("init", () => {
     icon: "",
   };
 
-  // Add ME5E misc equipment types
-
-  CONFIG.DND5E.miscEquipmentTypes.program = {
-    label: "ME5E.EquipTypeProgram",
-  };
-  CONFIG.DND5E.miscEquipmentTypes.armormod = {
-    label: "ME5E.EquipTypeArmorMod",
-  };
-  CONFIG.DND5E.miscEquipmentTypes.bodymod = {
-    label: "ME5E.EquipTypeBodyArmor",
-  };
-  CONFIG.DND5E.miscEquipmentTypes.weaponmod = {
-    label: "ME5E.EquipTypeWeaponMod",
-  };
-
   // Add ME5E consumables
 
   CONFIG.DND5E.consumableTypes.suprogram = {
@@ -82,50 +67,16 @@ Hooks.once("init", () => {
     label: "ME5E.ConsumTypeNarcotic",
   };
 
-  // Add ME5E weapon types
-
-  CONFIG.DND5E.weaponTypes.assaultrifle = {
-    label: "ME5E.WeaponTypeAssault",
-  };
-  CONFIG.DND5E.weaponTypes.heavypistol = {
-    label: "ME5E.WeaponTypeHeavyPistol",
-  };
-  CONFIG.DND5E.weaponTypes.submachinegun = {
-    label: "ME5E.WeaponTypeSMG",
-  };
-  CONFIG.DND5E.weaponTypes.shotgun = {
-    label: "ME5E.WeaponTypeShotgun",
-  };
-  CONFIG.DND5E.weaponTypes.sniperrifle = {
-    label: "ME5E.WeaponTypeSniper",
-  };
-  CONFIG.DND5E.weaponTypes.heavyweapon = {
-    label: "ME5E.WeaponTypeHeavy",
-  };
-
   // Add ME5E weapon properties
-
-  CONFIG.DND5E.itemProperties.arc = {
-    label: "ME5E.WeaponPropArc",
-  };
-  CONFIG.DND5E.itemProperties.bst = {
-    label: "ME5E.WeaponPropBurst",
-  };
-  CONFIG.DND5E.itemProperties.dtp = {
-    label: "ME5E.WeaponPropDouble",
-  };
-  CONFIG.DND5E.itemProperties.het = {
-    label: "ME5E.WeaponPropHeat",
-  };
-  CONFIG.DND5E.itemProperties.hip = {
-    label: "ME5E.WeaponPropHip",
-  };
-  CONFIG.DND5E.itemProperties.snt = {
-    label: "ME5E.WeaponPropSilent",
-  };
-  CONFIG.DND5E.itemProperties.coi = {
-    label: "ME5E.WeaponPropRecoil",
-  };
+  foundry.utils.mergeObject(CONFIG.DND5E.itemProperties, {
+    arc: { label: "Arc" },
+    bst: { label: "Burst Fire" },
+    dtp: { label: "Double Tap" },
+    het: { label: "Heat" },
+    hip: { label: "Hip Fire" },
+    snt: { label: "Silent" },
+    coi: { label: "Recoil" },
+  });
 
   // Add ME5E currency
 
@@ -160,10 +111,37 @@ Hooks.once("init", () => {
     pseudo: true,
   };
 
-  // Add ME5E tool types
-  CONFIG.DND5E.toolTypes.star = {
-    label: "ME5E.ToolTypeCatStar",
-  };
+  // Add ME5E weapon IDs
+  CONFIG.DND5E.weaponIds.assaultr = "2i9xfag1ztMVwomC";
+  CONFIG.DND5E.weaponIds.heavyp = "QBOx8pTvTIvZknD7";
+  CONFIG.DND5E.weaponIds.smg = "off175x9LLykWjz6";
+  CONFIG.DND5E.weaponIds.shotgun = "pf5CuxCVkC1hHD5A";
+  CONFIG.DND5E.weaponIds.sniperr = "dliOzyRmjOHuLVCx";
+  CONFIG.DND5E.weaponIds.heavyw = "it7NrU6lg2OrQF0S";
+});
+
+Hooks.once("setup", () => {
+  // Add ME5E misc equipment types
+  foundry.utils.mergeObject(CONFIG.DND5E.miscEquipmentTypes, {
+    armormod: { label: "Armor Mod" },
+    bodyarmor: { label: "Body Armor" },
+    weaponmod: { label: "Weapon Mod" },
+    program: { label: "Program" },
+  });
+
+  // Add ME5E weapon types
+  foundry.utils.mergeObject(CONFIG.DND5E.weaponTypes, {
+    assaultr: { label: "Assault Rifle" },
+    heavyp: { label: "Heavy Pistol" },
+    smg: { label: "Submachine Gun" },
+    shotgun: { label: "Shotgun" },
+    sniperr: { label: "Sniper Rifle" },
+  });
+
+  // Add ME5E weapon types
+  foundry.utils.mergeObject(CONFIG.DND5E.toolTypes, {
+    starship: { label: "Starship" },
+  });
 });
 
 /* 
@@ -183,4 +161,33 @@ DND5E.toolProficiencies["ssew"] = "Starship Systems (EWS)";
 DND5E.toolProficiencies["sswp"] = "Starship Systems (Weapons)";
 DND5E.toolProficiencies["tail"] = "Tailor's Tools";
 DND5E.toolProficiencies["tink"] = "Tinker's Tools";
-DND5E.toolProficiencies["wswb"] = "Weaponsmith's Workbench"; */
+DND5E.toolProficiencies["wswb"] = "Weaponsmith's Workbench"; 
+
+
+  // Update weapon type map
+  CONFIG.DND5E.weaponTypeMap.assaultr;
+  ("ranged");
+  CONFIG.DND5E.weaponTypeMap.heavyp;
+  ("ranged");
+  CONFIG.DND5E.weaponTypeMap.smg;
+  ("ranged");
+  CONFIG.DND5E.weaponTypeMap.shotgun;
+  ("ranged");
+  CONFIG.DND5E.weaponTypeMap.sniperr;
+  ("ranged");
+  CONFIG.DND5E.weaponTypeMap.heavyw;
+  ("ranged");
+  // Update weapon prof map
+  CONFIG.DND5E.weaponProficienciesMap.assaultr;
+  ("sim");
+  CONFIG.DND5E.weaponProficienciesMap.heavyp;
+  ("sim");
+  CONFIG.DND5E.weaponProficienciesMap.smg;
+  ("sim");
+  CONFIG.DND5E.weaponProficienciesMap.shotgun;
+  ("sim");
+  CONFIG.DND5E.weaponProficienciesMap.sniperr;
+  ("sim");
+  CONFIG.DND5E.weaponProficienciesMap.heavyw;
+  ("sim");
+  };*/

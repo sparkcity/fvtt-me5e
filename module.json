@@ -72,6 +72,13 @@
 			"system": "dnd5e",
 			"path": "packs/vehiclesme5e.db",
 			"entity": "Actor"
+		},
+		{
+			"name": "items-me5e",
+			"label": "Items",
+			"system": "dnd5e",
+			"path": "packs/items",
+			"entity": "Item"
 		}
 	  ],
 	"languages": [
