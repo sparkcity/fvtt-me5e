@@ -9,7 +9,7 @@
     "ME5E.EquipTypeWeaponMod": "Weapon Mod",
     "ME5E.EquipTypeBodyArmor": "Body Armor",
 
-    "ME5E.ConsumTypeSUProgram": "Body Armor",
+    "ME5E.ConsumTypeSUProgram": "Single-Use Program",
     "ME5E.ConsumTypeGrenade": "Grenade",
     "ME5E.ConsumTypeNarcotic": "Narcotic",
 
@@ -38,6 +38,8 @@
     "ME5E.CondTypeLift": "Lifted",
     "ME5E.CondTypePrime": "Primed",
     "ME5E.CondTypeTarget": "Targeting",
+
+    "ME5E.ToolTypeCatStar": "Starship",
 
     "ME5E.ToolChemist": "Chemist's Supplies",
     "ME5E.ToolSSN": "Starship System (Navigation)",
