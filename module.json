@@ -4,12 +4,10 @@
 	"description": "A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.",
 
 	"esmodules": [
-		"src/me5e.mjs"
+		"scripts/me5e.mjs"
 	],
 	"styles":[
-		"styles/me5e.css",
-		"styles/paragon.css",
-		"styles/renegade.css"
+		
 	],
 	"packs": [
 		{
