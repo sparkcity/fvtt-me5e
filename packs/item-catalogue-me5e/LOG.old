@@ -1,0 +1,5 @@
+2024/08/19-21:30:00.625 5bfc Recovering log #87
+2024/08/19-21:30:00.625 5bfc Level-0 table #90: started
+2024/08/19-21:30:00.629 5bfc Level-0 table #90: 89585 bytes OK
+2024/08/19-21:30:00.632 5bfc Delete type=0 #87
+2024/08/19-21:30:00.633 5bfc Delete type=3 #85
