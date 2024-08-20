@@ -88,7 +88,7 @@ Hooks.once("init", () => {
   CONFIG.DND5E.currencies = {
     credits: {
       label: "Credits",
-      abbreviation: "creds",
+      abbreviation: "ȼ",
       conversion: 1,
     },
   };
