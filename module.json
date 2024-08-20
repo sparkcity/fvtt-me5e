@@ -81,6 +81,16 @@
 			"entity": "Item"
 		}
 	  ],
+	  "packFolders": [
+		{
+      		"name": "ME5E Content",
+      		"sorting": "a",
+      		"color": "#abfca7",
+      		"packs": [
+				"items-me5e"
+	  		]
+		}
+	],
 	"languages": [
 		{
 		  "lang": "en",
