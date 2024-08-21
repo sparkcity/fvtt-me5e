@@ -11,13 +11,6 @@
 	],
 	"packs": [
 		{
-			"name": "backgrounds-me5e",
-			"label": "Backgrounds (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/backgrounds-me5e.db",
-			"entity": "Item"
-		},
-		{
 			"name": "bestiary-me5e",
 			"label": "Bestiary (ME5e)",
 			"system": "dnd5e",
@@ -79,6 +72,20 @@
 			"system": "dnd5e",
 			"path": "packs/items",
 			"entity": "Item"
+		},
+		{
+			"name": "backgrounds",
+			"label": "Backgrounds",
+			"system": "dnd5e",
+			"path": "packs/backgrounds",
+			"entity": "Item"
+		},
+		{
+			"name": "features",
+			"label": "Features",
+			"system": "dnd5e",
+			"path": "packs/features",
+			"entity": "Item"
 		}
 	  ],
 	  "packFolders": [
@@ -87,7 +94,9 @@
       		"sorting": "a",
       		"color": "#abfca7",
       		"packs": [
-				"items-me5e"
+				"items-me5e",
+				"backgrounds",
+				"features"
 	  		]
 		}
 	],
