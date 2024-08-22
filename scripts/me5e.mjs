@@ -96,19 +96,19 @@ Hooks.once("init", () => {
   const me5eConditions = {
     indoctrinated: {
       label: "Indoctrinated",
-      icon: "assets\\icons\\statusindoctrinated.svg",
+      icon: "assets\\icons\\status-indoctrinated.svg",
     },
     lifted: {
       label: "Lifted",
-      icon: "assets\\icons\\statuslifted.svg",
+      icon: "assets\\icons\\status-lifted.svg",
     },
     primed: {
       label: "Primed",
-      icon: "assets\\icons\\statusprimed.svg",
+      icon: "assets\\icons\\status-primed.svg",
     },
     targeting: {
       label: "Targeting",
-      icon: "assets\\icons\\statustargeting.svg",
+      icon: "assets\\icons\\status-targeting.svg",
     },
   };
 

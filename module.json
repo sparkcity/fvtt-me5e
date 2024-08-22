@@ -7,7 +7,7 @@
 		"scripts/me5e.mjs"
 	],
 	"styles":[
-		"styles/me5e.scss"
+		"styles/main.css"
 	],
 	"packs": [
 		{
