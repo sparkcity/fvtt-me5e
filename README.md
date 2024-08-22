@@ -28,7 +28,8 @@
   - Missile launcher icon by Delapouite
   - Pistol gun icon by John Colburn
   - Sawed-off shotgun icon by Delapouite
-  - MP5 by Delapouite; Uzi icon by Delapouite
+  - MP5 by Delapouite; 
+  - Uzi icon by Delapouite
   - CPU icon by Delapouite
   - Battle gear icon by Lorc
   - Silver bullet icon by Delapouite
