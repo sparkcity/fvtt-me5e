@@ -21,7 +21,7 @@
   - Spells
   - Vehicles
 
-(NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any copyright infringing entries have been left out of the Bestiary and will not be added.)
+(NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any potentially copyright infringing entries have been left out of the Bestiary and will not be added.)
 
 ## Attributions
 
@@ -48,4 +48,4 @@
   - Land mine icon by Delapouite
   - Gravitation icon by Delapouite
 - Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
-- Compendium content from ME5e. In order to be compliant with copyright restrictions and not to infringe on any copyright, copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed. For full content, GMs and Players should refer to the website for ME5E.
+- Compendium content from ME5E v1.4.4. Copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed in order to be compliant with copyright restrictions and not to infringe on any copyright. For full content, GMs and Players should refer to the website for ME5E.

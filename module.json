@@ -92,7 +92,7 @@
 		{
       		"name": "ME5E Content",
       		"sorting": "a",
-      		"color": "#589b5f",
+      		"color": "#000033",
       		"packs": [
 				"items-me5e",
 				"backgrounds",

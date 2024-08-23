@@ -29,7 +29,3 @@ button {
     font-family: "Oxanium Light";
 }
 
-.dnd5e2.sheet.actor.character .sheet-header {
-    background-image: transparent url("../assets/images/texture-synthesis.webp") no-repeat center / cover
-}
-
