@@ -83,6 +83,26 @@ Hooks.once("init", () => {
     CONFIG.DND5E.validProperties.weapon.add(k);
   }
 
+  /*  doesnt show up under the properties box when viewing primary page of item description
+
+    const me5eEquipmentProps = {
+    placebody: "Placement: Body",
+    placechest: "Placement: Chest",
+    placearms: "Placement: Arms",
+    placelegs: "Placement: Legs",
+    pleacehead: "Placement: Head",
+    placeammo: "Placement: Ammo",
+    placemag: "Placement: Magazine",
+    placegrip: "Placement: Grip",
+    placestrike: "Placement: Strike",
+    placebarrel: "Placement: Barrel",
+  };
+
+  for (const [k, v] of Object.entries(me5eEquipmentProps)) {
+    CONFIG.DND5E.itemProperties[k] = { label: v };
+    CONFIG.DND5E.validProperties.equipment.add(k);
+  } */
+
   // Add ME5E currency
 
   CONFIG.DND5E.currencies = {
