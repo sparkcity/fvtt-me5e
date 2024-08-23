@@ -2,21 +2,21 @@ Hooks.once("init", () => {
   // Add ME5E 'spellcasting' schools
   CONFIG.DND5E.spellSchools.btc = {
     label: "Biotics",
-    icon: "assets\\icons\\ablbiotics.svg",
+    icon: "./assets/icons/spellschool-biotics.svg",
     fullKey: "biotics",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.cmt = {
     label: "Combat Powers",
-    icon: "assets\\icons\\ablcombat.svg",
+    icon: "./assets/icons/spellschool-combatpowers.svg",
     fullKey: "combat powers",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.tec = {
     label: "Tech",
-    icon: "assets\\icons\\abltech.svg",
+    icon: "./assets/icons/spellschool-tech.svg",
     fullKey: "tech",
     reference: "",
   };
@@ -96,19 +96,19 @@ Hooks.once("init", () => {
   const me5eConditions = {
     indoctrinated: {
       label: "Indoctrinated",
-      icon: "assets\\icons\\status-indoctrinated.svg",
+      icon: "/assets/icons/status-indoctrinated.svg",
     },
     lifted: {
       label: "Lifted",
-      icon: "assets\\icons\\status-lifted.svg",
+      icon: "/assets/icons/status-lifted.svg",
     },
     primed: {
       label: "Primed",
-      icon: "assets\\icons\\status-primed.svg",
+      icon: "/assets/icons/status-primed.svg",
     },
     targeting: {
       label: "Targeting",
-      icon: "assets\\icons\\status-targeting.svg",
+      icon: "/assets/icons/status-targeting.svg",
     },
   };
 

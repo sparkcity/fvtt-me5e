@@ -1,13 +1,14 @@
 [![Foundry](https://img.shields.io/badge/Foundry%40CompatibleCore-v12-brightgreen)](https://foundryvtt.com/)
-[![DND5E](https://img.shields.io/badge/DnD5E-1.1.1-orange)](https://gitlab.com/foundrynet/dnd5e)
+[![DND5E](https://img.shields.io/badge/DnD5E-3.3.1-orange)](https://gitlab.com/foundrynet/dnd5e)
+![ME5E](https://img.shields.io/badge/ME5E-v1.4.4)
 ![GitHub All Releases](https://img.shields.io/github/downloads/sparkcity/fvtt-me5e/total)
 ![GitHub @Latest](https://img.shields.io/github/downloads/sparkcity/fvtt-me5e/latest/total)
 
 ## Notes
 
-- As a hobby project, development will take place as time allows.
+- As a hobby project, development will take place as time allows. My focus will largely be making sure it stays compatible with Foundry core updates and Dungeons & Dragons system updates. I will add new features if possible when I have the time.
 
-## Content
+## Features
 
 - Compendiums:
   - Bestiary
@@ -42,5 +43,9 @@
   - Book aura icon by Lorc
   - Uzi icon by Delapouite
   - Horizon road icon by Delapouite
-- App background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
+  - Targeting icon by Delapouite
+  - Hive mind icon by Delapouite
+  - Land mine icon by Delapouite
+  - Gravitation icon by Delapouite
+- Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
 - Compendium content from ME5e. In order to be compliant with copyright restrictions and not to infringe on any copyright, copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed. For full content, GMs and Players should refer to the website for ME5E.
