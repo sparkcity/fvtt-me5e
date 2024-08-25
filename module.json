@@ -4,7 +4,8 @@
 	"description": "A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.",
 
 	"esmodules": [
-		"scripts/me5e.mjs"
+		"scripts/me5e_config.mjs",
+		"scripts/me5e_flags.mjs"
 	],
 	"styles":[
 		"styles/main.css"
@@ -109,7 +110,7 @@
 	],
 
 	"system": "dnd5e",
-	"author": "Parker S.",
+	"author": "sparkcities",
 	"version": "2.0.0",
 	"minimumCoreVersion": "12",
 	"compatibleCoreVersion": "12",

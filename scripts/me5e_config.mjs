@@ -157,12 +157,16 @@ Hooks.once("init", () => {
     "Compendium.fvtt-me5e.items-me5e.Item.dliOzyRmjOHuLVCx";
   CONFIG.DND5E.weaponIds.heavyw =
     "Compendium.fvtt-me5e.items-me5e.Item.it7NrU6lg2OrQF0S";
-  // Add ME5E misc equipment types
 
-  CONFIG.DND5E.miscEquipmentTypes.armormod = "Armor Mod";
-  CONFIG.DND5E.miscEquipmentTypes.bodyarmor = "Body Armor";
-  CONFIG.DND5E.miscEquipmentTypes.weaponmod = "Weapon Mod";
-  CONFIG.DND5E.miscEquipmentTypes.program = "Program";
+  // Add ME5E misc equipment types
+  CONFIG.DND5E.miscEquipmentTypes.armormod =
+    CONFIG.DND5E.equipmentTypes.armormod = "Armor Mod";
+  CONFIG.DND5E.miscEquipmentTypes.bodyarmor =
+    CONFIG.DND5E.equipmentTypes.bodyarmor = "Body Armor";
+  CONFIG.DND5E.miscEquipmentTypes.weaponmod =
+    CONFIG.DND5E.equipmentTypes.weaponmod = "Weapon Mod";
+  CONFIG.DND5E.miscEquipmentTypes.program =
+    CONFIG.DND5E.equipmentTypes.program = "Program";
 
   // Add ME5E tool categories
   CONFIG.DND5E.toolTypes.starship = "Starship Systems";
