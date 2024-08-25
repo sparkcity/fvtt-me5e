@@ -61,13 +61,6 @@
 			"entity": "Item"
 		},
 		{
-			"name": "vehiclesme5e",
-			"label": "Vehicles (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/vehiclesme5e.db",
-			"entity": "Actor"
-		},
-		{
 			"name": "items-me5e",
 			"label": "Items",
 			"system": "dnd5e",
@@ -87,6 +80,20 @@
 			"system": "dnd5e",
 			"path": "packs/features",
 			"entity": "Item"
+		},
+		{
+			"name": "weapon",
+			"label": "Weapons",
+			"system": "dnd5e",
+			"path": "packs/weapons",
+			"entity": "Item"
+		},
+		{
+			"name": "vehicles",
+			"label": "Vehicles",
+			"system": "dnd5e",
+			"path": "packs/vehicles",
+			"entity": "Actor"
 		}
 	  ],
 	  "packFolders": [
@@ -97,7 +104,9 @@
       		"packs": [
 				"items-me5e",
 				"backgrounds",
-				"features"
+				"features",
+				"weapons",
+				"vehicles"
 	  		]
 		}
 	],

@@ -29,7 +29,7 @@
   - Missile launcher icon by Delapouite
   - Pistol gun icon by John Colburn
   - Sawed-off shotgun icon by Delapouite
-  - MP5 by Delapouite; 
+  - MP5 by Delapouite;
   - Uzi icon by Delapouite
   - CPU icon by Delapouite
   - Battle gear icon by Lorc
@@ -47,5 +47,14 @@
   - Hive mind icon by Delapouite
   - Land mine icon by Delapouite
   - Gravitation icon by Delapouite
+  - Laser turret icon by Delapouite
+  - Spaceship icon by Delapouite
+  - Starfighter icon by Delapouite
+  - Autogun icon by Lorc
+  - Missile swarm icon by Lorc
+  - Rocket icon by Lorc
+  - Sinusoidal beam icon by Lorc
+  - Strafe icon by Lorc
+  - Tesla turret icon by Lorc
 - Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
 - Compendium content from ME5E v1.4.4. Copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed in order to be compliant with copyright restrictions and not to infringe on any copyright. For full content, GMs and Players should refer to the website for ME5E.
