@@ -29,8 +29,11 @@ button {
     font-family: "Oxanium Light";
 }
 
-.dnd5e2.sheet.actor .meter.shields .progress::before {
-    background: linear-gradient(to right, #1b1d4b 0%, #3b64a5 100%);
-    border-inline-end: var(--border-width) solid #27306d;
+div.progress.hit-points.shields::before {
+    background: linear-gradient(to right,
+    #1b1d4b 0%,
+    #3b64a5 100%)
+    !important;
+    border-inline-end: var(--border-width) solid #27306d !important;
     border-radius: 4px 0 0 4px;
 }

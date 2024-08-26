@@ -4,96 +4,46 @@
 	"description": "A module to add support for ME5e, a futuristic sci-fi setting, to your 5e world. Includes most compendium content from ME5e excluding that which would infringe on copyright.",
 
 	"esmodules": [
-		"scripts/me5e_config.mjs",
-		"scripts/me5e_flags.mjs"
+		"scripts/me5e_system_edits.mjs"
 	],
 	"styles":[
 		"styles/main.css"
 	],
 	"packs": [
 		{
-			"name": "bestiary-me5e",
-			"label": "Bestiary (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/bestiary-me5e.db",
-			"entity": "Actor"
-		},
-		{
-			"name": "classes-me5e",
-			"label": "Classes (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/classes-me5e.db",
-			"entity": "Item"
-		},
-		{
-			"name": "class-features-me5e",
-			"label": "Class Features (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/class-features-me5e.db",
-			"entity": "Item"
-		},
-		{
-			"name": "feats-me5e",
-			"label": "Feats (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/feats-me5e.db",
-			"entity": "Item"
-		},
-		{
-			"name": "item-catalogue-me5e",
-			"label": "Item Catalogue (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/item-catalogue-me5e.db",
-			"entity": "Item"
-		},
-		{
-			"name": "racial-features-me5e",
-			"label": "Racial Features (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/racial-features-me5e.db",
-			"entity": "Item"
-		},
-		{
-			"name": "spells-me5e",
-			"label": "Spells (ME5e)",
-			"system": "dnd5e",
-			"path": "packs/spells-me5e.db",
-			"entity": "Item"
-		},
-		{
 			"name": "items-me5e",
 			"label": "Items",
 			"system": "dnd5e",
 			"path": "packs/items",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "backgrounds",
 			"label": "Backgrounds",
 			"system": "dnd5e",
 			"path": "packs/backgrounds",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "features",
 			"label": "Features",
 			"system": "dnd5e",
 			"path": "packs/features",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "weapon",
 			"label": "Weapons",
 			"system": "dnd5e",
 			"path": "packs/weapons",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "vehicles",
 			"label": "Vehicles",
 			"system": "dnd5e",
 			"path": "packs/vehicles",
-			"entity": "Actor"
+			"type": "Actor"
 		}
 	  ],
 	  "packFolders": [
@@ -117,12 +67,32 @@
 		  "path": "lang/en.json"
 		}
 	],
-
-	"system": "dnd5e",
-	"author": "sparkcities",
+	"compatibility": {
+		"minimum": "12",
+		"verified": "12.330"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id":"dnd5e",
+				"type": "system",
+				"compatibility": [
+					{
+						"minimum":"3.3.1",
+						"maximum": "3.3.1",
+						"verified": "3.3.1"
+					}
+				]
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "sparkcities",
+			"url": "https://github.com/sparkcity"
+		}
+	],
 	"version": "2.0.0",
-	"minimumCoreVersion": "12",
-	"compatibleCoreVersion": "12",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
 	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.json",
 	"download": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.zip",
