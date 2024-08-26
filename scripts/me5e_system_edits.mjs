@@ -69,13 +69,13 @@ Hooks.once("init", () => {
 
   // Add ME5E item properties and push to validProperties so they're available on item sheets
   const me5eItemProps = {
-    arc: "Arc",
-    bst: "Burst Fire",
-    dtp: "Double Tap",
-    het: "Heat",
-    hip: "Hip Fire",
-    snt: "Silent",
-    coi: "Recoil",
+    arc: game.i18n.localize("ME5E.weaponProperties.weaponPropArc"),
+    bst: game.i18n.localize("ME5E.weaponProperties.weaponPropBurst"),
+    dtp: game.i18n.localize("ME5E.weaponProperties.weaponPropDouble"),
+    het: game.i18n.localize("ME5E.weaponProperties.weaponPropHeat"),
+    hip: game.i18n.localize("ME5E.weaponProperties.weaponPropHip"),
+    snt: game.i18n.localize("ME5E.weaponProperties.weaponPropSilent"),
+    coi: game.i18n.localize("ME5E.weaponProperties.weaponPropRecoil"),
   };
 
   for (const [k, v] of Object.entries(me5eItemProps)) {
@@ -107,7 +107,7 @@ Hooks.once("init", () => {
 
   CONFIG.DND5E.currencies = {
     credits: {
-      label: "Credits",
+      label: game.i18n.localize("ME5E.currencies.currency"),
       abbreviation: "ȼ",
       conversion: 1,
     },
@@ -115,19 +115,19 @@ Hooks.once("init", () => {
   // Add ME5E condition types
   const me5eConditions = {
     indoctrinated: {
-      label: "Indoctrinated",
+      label: game.i18n.localize("ME5E.conditionTypes.condTypeIndoc"),
       icon: "modules/fvtt-me5e/assets/icons/status-indoctrinated.svg",
     },
     lifted: {
-      label: "Lifted",
+      label: game.i18n.localize("ME5E.conditionTypes.condTypeLift"),
       icon: "modules/fvtt-me5e/assets/icons/status-lifted.svg",
     },
     primed: {
-      label: "Primed",
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrime"),
       icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     targeting: {
-      label: "Targeting",
+      label: game.i18n.localize("ME5E.conditionTypes.condTypeTarget"),
       icon: "modules/fvtt-me5e/assets/icons/status-targeting.svg",
     },
   };
@@ -160,16 +160,26 @@ Hooks.once("init", () => {
 
   // Add ME5E misc equipment types
   CONFIG.DND5E.miscEquipmentTypes.armormod =
-    CONFIG.DND5E.equipmentTypes.armormod = "Armor Mod";
+    CONFIG.DND5E.equipmentTypes.armormod = game.i18n.localize(
+      "ME5E.equipmentTypes.equipTypeArmorMod"
+    );
   CONFIG.DND5E.miscEquipmentTypes.bodyarmor =
-    CONFIG.DND5E.equipmentTypes.bodyarmor = "Body Armor";
+    CONFIG.DND5E.equipmentTypes.bodyarmor = game.i18n.localize(
+      "ME5E.equipmentTypes.equipTypeBodyArmor"
+    );
   CONFIG.DND5E.miscEquipmentTypes.weaponmod =
-    CONFIG.DND5E.equipmentTypes.weaponmod = "Weapon Mod";
+    CONFIG.DND5E.equipmentTypes.weaponmod = game.i18n.localize(
+      "ME5E.equipmentTypes.equipTypeWeaponMod"
+    );
   CONFIG.DND5E.miscEquipmentTypes.program =
-    CONFIG.DND5E.equipmentTypes.program = "Program";
+    CONFIG.DND5E.equipmentTypes.program = game.i18n.localize(
+      "ME5E.equipmentTypes.equipTypeProgram"
+    );
 
   // Add ME5E tool categories
-  CONFIG.DND5E.toolTypes.starship = "Starship Systems";
+  CONFIG.DND5E.toolTypes.starship = game.i18n.localize(
+    "ME5E.toolTypes.toolTypeCatStar"
+  );
 
   //Add ME5E tool proficiencies IDs
   CONFIG.DND5E.toolIds.armorsmithtool =
