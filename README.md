@@ -56,5 +56,6 @@
   - Sinusoidal beam icon by Lorc
   - Strafe icon by Lorc
   - Tesla turret icon by Lorc
+  - Lunar module icon by Delapouite
 - Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
 - Compendium content from ME5E v1.4.4. Copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed in order to be compliant with copyright restrictions and not to infringe on any copyright. For full content, GMs and Players should refer to the website for ME5E.
