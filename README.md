@@ -5,8 +5,8 @@
 ![Static Badge](https://img.shields.io/badge/ME5E-1.4.4-blue)
 
 # Content
-
-- Compendiums:
+```
+- Compendiums
   - Bestiary
   - Backgrounds
   - Classes (with subclasses)
@@ -16,6 +16,7 @@
   - Racial Features
   - Spells
   - Vehicles
+```
 
 (NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any potentially copyright infringing entries have been left out of the Bestiary and will not be added.)
 
@@ -23,7 +24,8 @@
 
 ## Acknowledgements
 
--
+- Foundry VTT Community Discord, for helping with troubleshooting and questions
+- Astrotech89, for forking the repo when I dropped it and carrying on to build a module compatible with ME5E 1.4.1. To use that version, please refer to his module.
 
 ## Attributions
 
