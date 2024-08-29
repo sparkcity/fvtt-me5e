@@ -19,19 +19,9 @@ class Mass {
    * @type {Object}
    */
   static FLAGS = {
-    CURRENT_SHIELDS: "currShields",
-    SHIELDS_MAX: "maxShields",
-    SHIELDS_REGEN: "regenShields",
-  };
-
-  /**
-   * Mapping of custom Hooks for the modules
-   * @type {Object}
-   */
-  static HOOKS = {
-    SHIELDS_CHANGE: `${this.ID}.shieldsChange`,
-    SHIELDS_MAX_CHANGE: `${this.ID}.shieldsMaxChange`,
-    SHIELDS_REGEN_CHANGE: `${this.ID}.shieldsRegenChange`,
+    SHEILDS_CURRENT: "FLAG_CURRENT_ACTIVE_SHIELDS",
+    SHIELDS_MAX: "FLAG_CURRENT_SHIELDS_MAX",
+    SHIELDS_REGEN: "FLAG_CURRENT_SHIELDS_REGEN",
   };
 
   /**
@@ -68,7 +58,7 @@ class MassData {
    * @returns {number} The current Shields of the actor if available, or null otherwise
    */
   static getShieldsForActor(actor) {
-    return actor.getFlag(Mass.ID, Mass.FLAGS.CURRENT_SHIELDS);
+    return actor.getFlag(Mass.ID, Mass.FLAGS.SHIELDS_CURRENT);
   }
   /**
    * Gets the current SHIELDS MAX for the specified actor.
@@ -93,14 +83,13 @@ class MassData {
    *
    * @param {Actor} actor - The actor whose shields total we want to update
    * @param {number} value - The value to adjust the actor's shields to.
-   * @returns {Promise} A Promise that resolves when the actor's Current Shields flag is updated.
    */
   static updateShieldsForActor(actor, value) {
     Mass.log(
       true,
-      `Setting current shields for actor ${actor.name} to ${value}`
+      `Setting CURRENT SHIELDS for actor ${actor.name} to ${value}`
     );
-    return actor.setFlag(Mass.ID, Mass.FLAGS.CURRENT_SHIELDS, value);
+    actor.setFlag(Mass.ID, Mass.FLAGS.SHIELDS_CURRENT, value);
   }
   /**
    * Updates the SHIELDS MAX for a specified actor.
@@ -112,9 +101,13 @@ class MassData {
   static updateShieldsMaxForActor(actor, value) {
     Mass.log(
       true,
-      `Setting current shields for actor ${actor.name} to ${value}`
+      `Setting CURRENT SHIELDS MAX for actor ${actor.name} to ${value}`
     );
-    return actor.setFlag(Mass.ID, Mass.FLAGS.CURRENT_SHIELDS, value);
+    actor.setFlag(Mass.ID, Mass.FLAGS.SHIELDS_CURRENT, value);
+    Mass.log(
+      true,
+      `Confirming CURRENT SHIELDS MAX for actor ${actor.name} set to: `
+    );
   }
   /**
    * Updates the SHIELDS REGEN for a specified actor.
@@ -126,82 +119,9 @@ class MassData {
   static updateShieldsRegenForActor(actor, value) {
     Mass.log(
       true,
-      `Setting current shields for actor ${actor.name} to ${value}`
+      `Setting CURRENT SHIELDS REGENERATION for actor ${actor.name} to ${value}`
     );
-    return actor.setFlag(Mass.ID, Mass.FLAGS.CURRENT_SHIELDS, value);
-  }
-
-  /**
-   * Updates the shields flags for a specified actor with the provided data.
-   *
-   * @param {Actor} actor - The actor whose shields flags we want to update
-   * @param {Object} updateData - The data to update the actor flags with
-   */
-  static async updateShieldsFlagsForActor(actor, updateData) {
-    const prevShields = MassData.getShieldsForActor(actor);
-    await actor.update({
-      [Mass.flagPath]: updateData,
-    });
-    const newShields = MassData.getShieldsForActor(actor);
-    // Trigger a custom Hook in case there was a change in the current shields
-    if (prevShields != newShields) {
-      Hooks.callAll(
-        Mass.HOOKS.SHIELDS_CHANGE,
-        {
-          prevShields,
-          newShields,
-        },
-        actor
-      );
-    }
-  }
-  /**
-   * Updates the shields flags for a specified actor with the provided data.
-   *
-   * @param {Actor} actor - The actor whose shields flags we want to update
-   * @param {Object} updateData - The data to update the actor flags with
-   */
-  static async updateShieldsMaxFlagsForActor(actor, updateData) {
-    const prevShields = MassData.getShieldsForActor(actor);
-    await actor.update({
-      [Mass.flagPath]: updateData,
-    });
-    const newShields = MassData.getShieldsForActor(actor);
-    // Trigger a custom Hook in case there was a change in the current shields
-    if (prevShields != newShields) {
-      Hooks.callAll(
-        Mass.HOOKS.SHIELDS_MAX_CHANGE,
-        {
-          prevShields,
-          newShields,
-        },
-        actor
-      );
-    }
-  }
-  /**
-   * Updates the shields flags for a specified actor with the provided data.
-   *
-   * @param {Actor} actor - The actor whose shields flags we want to update
-   * @param {Object} updateData - The data to update the actor flags with
-   */
-  static async updateShieldsRegenFlagsForActor(actor, updateData) {
-    const prevShields = MassData.getShieldsRegenForActor(actor);
-    await actor.update({
-      [Mass.flagPath]: updateData,
-    });
-    const newShields = MassData.getShieldsRegenForActor(actor);
-    // Trigger a custom Hook in case there was a change in the current shields
-    if (prevShields != newShields) {
-      Hooks.callAll(
-        Mass.HOOKS.SHIELDS_REGEN_CHANGE,
-        {
-          prevShields,
-          newShields,
-        },
-        actor
-      );
-    }
+    actor.setFlag(Mass.ID, Mass.FLAGS.SHIELDS_CURRENT, value);
   }
 }
 
@@ -214,13 +134,10 @@ class MassConfig {
    * @param {object} actor - The actor object.
    */
   static initializeShieldValuesForActor(actor) {
-    Mass.log(true, "Initializing module flags");
-    const actorShields = {
-      [Mass.FLAGS.CURRENT_SHIELDS]: 5,
-    };
-    MassData.updateShieldsMaxForActor(actor, 5);
-    MassData.updateShieldsRegenForActor(actor, 5);
-    MassData.updateShieldsFlagsForActor(actor, actorShields);
+    Mass.log(true, `Initializing module flags for ${actor.name}}`);
+    MassData.updateShieldsForActor(actor, 0);
+    MassData.updateShieldsMaxForActor(actor, 0);
+    MassData.updateShieldsRegenForActor(actor, 0);
 
     Mass.log(
       true,
@@ -274,21 +191,21 @@ Hooks.once("devModeReady", ({ registerPackageDebugFlag }) => {
  */
 Hooks.on("renderActorSheet5eCharacter", (app, [html], data) => {
   const actor = app.document;
+  console.log(actor);
   Mass.log(true, `Opened actor sheet for ${actor.name}`);
 
-  let currShields = MassData.getShieldsForActor(actor);
-  if (currShields === undefined) {
+  let currentShields = MassData.getShieldsForActor(actor);
+  if (currentShields === undefined) {
     Mass.log(
       true,
       `Module flags were not set for actor ${actor.name}(ID: ${actor.id})`
     );
     MassConfig.initializeShieldValuesForActor(actor);
   }
-
-  const maxShields = Mass.FLAGS.SHIELDS_MAX;
-  const shieldsRegen = Mass.FLAGS.SHIELDS_REGEN;
-  const sanPerc = (currShields / maxShields) * 100;
-  const currShieldsFlag = `${Mass.flagPath}.${Mass.FLAGS.CURRENT_SHIELDS}`;
+  const maxShields = MassData.getShieldsMaxForActor(actor);
+  const shieldsRegen = MassData.getShieldsRegenForActor(actor);
+  const shieldPerc = (currentShields / maxShields) * 100;
+  const currentShieldsFlag = `${Mass.flagPath}.${Mass.FLAGS.SHIELDS_CURRENT}`;
 
   const shields_interface = `
     <div class="meter-group">
@@ -299,13 +216,13 @@ Hooks.on("renderActorSheet5eCharacter", (app, [html], data) => {
         </a>
       </div>
       <div class="meter sectioned hit-points shields">
-        <div class="progress hit-points shields" role="meter" aria-valuemin="0" aria-valuenow="${currShields}" aria-valuemax="${maxShields}" style="--bar-percentage: ${sanPerc}%">
+        <div class="progress hit-points shields" role="meter" aria-valuemin="0" aria-valuenow="${currentShields}" aria-valuemax="${maxShields}" style="--bar-percentage: ${shieldPerc}%">
           <div class="label">
-            <span class="value">${currShields}</span>
+            <span class="value">${currentShields}</span>
             <span class="separator">/</span>
             <span class="max">${maxShields}</span>
           </div>
-          <input type="text" name="${currShieldsFlag}" data-dtype="Number" placeholder="0" value="${currShields}" hidden="">
+          <input type="text" name="${currentShieldsFlag}" data-dtype="Number" placeholder="0" value="${currentShields}" hidden="">
         </div>
       </div>
     </div>`;
@@ -355,17 +272,38 @@ Hooks.on("renderActorSheet5eCharacter", (app, [html], data) => {
         label: "Exit",
       },
     ],
+    submit: (result) => {
+      console.log(result);
+      if (result == "close") {
+        console.log("shieldsConfigDialog pop-up manually closed.");
+      } else {
+      }
+    },
   });
   //////////////////////////callback for dialog box
   function updateFieldsFromDialog([values]) {
-    if (values[0] != Mass.FLAGS.CURRENT_SHIELDS) {
+    let currentShields = MassData.getShieldsForActor(actor);
+    let currentShieldsMax = MassData.getShieldsMaxForActor(actor);
+    let currentShieldsRegen = MassData.getShieldsRegenForActor(actor);
+
+    if (values[0] != currentShields) {
       MassData.updateShieldsForActor(actor, shieldsFieldInput);
-    }
-    if (values[1] != Mass.FLAGS.SHIELDS_MAX) {
+      Mass.log(
+        true,
+        `Updating CURRENT SHIELDS from previous value ${currentShields} to ${shieldsFieldInput}`
+      );
+    } else if (values[1] != currentShieldsMax) {
       MassData.updateShieldsMaxForActor(actor, shieldsMaxFieldInput);
-    }
-    if (values[2] != Mass.FLAGS.SHIELDS_REGEN) {
+      Mass.log(
+        true,
+        `Updating SHIELDS MAX from previous value ${currentShieldsMax} to ${shieldsMaxFieldInput}`
+      );
+    } else if (values[2] != currentShieldsRegen) {
       MassData.updateShieldsRegenForActor(actor, shieldsRegenFieldInput);
+      Mass.log(
+        true,
+        `Updating SHIELDS REGEN from previous value ${currentShieldsRegen} to ${shieldsRegenFieldInput}`
+      );
     }
   }
 
@@ -376,7 +314,7 @@ Hooks.on("renderActorSheet5eCharacter", (app, [html], data) => {
     MassConfig._toggleEditHP(event, true);
   });
   const shieldsBarInput = html.querySelector(
-    `input[name="${currShieldsFlag}"]`
+    `input[name="${currentShieldsFlag}"]`
   );
   shieldsBarInput.addEventListener("blur", (event) => {
     Mass.log(false, "focus out of input", event);
