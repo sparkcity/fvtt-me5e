@@ -44,6 +44,55 @@
 			"system": "dnd5e",
 			"path": "packs/vehicles",
 			"type": "Actor"
+		},
+		{
+			"name": "bestiary",
+			"label": "Bestiary",
+			"system": "dnd5e",
+			"path": "packs/bestiary",
+			"type": "Actor"
+		},
+		{
+			"name": "classes",
+			"label": "Classes",
+			"system": "dnd5e",
+			"path": "packs/classes",
+			"type": "Items"
+		},
+		{
+			"name": "powers",
+			"label": "Powers",
+			"system": "dnd5e",
+			"path": "packs/powers",
+			"type": "Items"
+		},
+		{
+			"name": "bestiary-me5e",
+			"label": "Old Bestiary",
+			"system": "dnd5e",
+			"path": "packs/bestiary-5e",
+			"type": "Actor"
+		},
+		{
+			"name": "racial-features-me5e",
+			"label": "Old Racial Features",
+			"system": "dnd5e",
+			"path": "packs/racial-features-me5e",
+			"type": "Items"
+		},
+		{
+			"name": "class-features-me5e",
+			"label": "Old Class Features",
+			"system": "dnd5e",
+			"path": "packs/class-features-me5e",
+			"type": "Items"
+		},
+		{
+			"name": "feats-me5e",
+			"label": "Old Feats",
+			"system": "dnd5e",
+			"path": "packs/feats-me5e",
+			"type": "Items"
 		}
 	  ],
 	  "packFolders": [
@@ -56,7 +105,10 @@
 				"backgrounds",
 				"features",
 				"weapons",
-				"vehicles"
+				"vehicles",
+				"bestiary",
+				"classes",
+				"powers"
 	  		]
 		}
 	],
