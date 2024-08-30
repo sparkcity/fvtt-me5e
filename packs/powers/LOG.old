@@ -1,3 +1,4 @@
-2024/08/29-23:35:35.512 915c Recovering log #13
-2024/08/29-23:35:35.514 915c Delete type=0 #13
-2024/08/29-23:35:35.514 915c Delete type=3 #12
+2024/08/30-16:51:08.658 2204 Log #17: 0 ops saved to Table #18 OK
+2024/08/30-16:51:08.659 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\powers/000017.log: OK
+2024/08/30-16:51:08.660 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\powers/MANIFEST-000016: OK
+2024/08/30-16:51:08.663 2204 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\powers; recovered 0 files; 0 bytes. Some data may have been lost. ****

@@ -1,3 +1,4 @@
-2024/08/29-23:35:35.500 7bb0 Recovering log #23
-2024/08/29-23:35:35.504 7bb0 Delete type=0 #23
-2024/08/29-23:35:35.504 7bb0 Delete type=3 #22
+2024/08/30-16:51:08.613 454c Log #27: 0 ops saved to Table #28 OK
+2024/08/30-16:51:08.613 454c Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary/000027.log: OK
+2024/08/30-16:51:08.615 454c Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary/MANIFEST-000026: OK
+2024/08/30-16:51:08.618 454c **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary; recovered 0 files; 0 bytes. Some data may have been lost. ****
