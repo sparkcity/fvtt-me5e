@@ -32,7 +32,7 @@
 			"type": "Item"
 		},
 		{
-			"name": "weapon",
+			"name": "weapons",
 			"label": "Weapons",
 			"system": "dnd5e",
 			"path": "packs/weapons",
