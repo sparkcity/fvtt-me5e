@@ -65,6 +65,13 @@
 			"system": "dnd5e",
 			"path": "packs/powers",
 			"type": "Item"
+		},
+		{
+			"name": "rules",
+			"label": "Rules",
+			"system": "dnd5e",
+			"path": "packs/rules",
+			"type": "JournalEntry"
 		}
 	  ],
 	  "packFolders": [
@@ -80,7 +87,8 @@
 				"vehicles",
 				"bestiary",
 				"classes",
-				"powers"
+				"powers",
+				"rules"
 	  		]
 		}
 	],

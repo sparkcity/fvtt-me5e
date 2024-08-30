@@ -20,7 +20,7 @@
         "spellSchools": {
             "spSchBiotics": "Biotics",
             "spSchTech": "Tech",
-            "spSchCombat": "Combat Powers"
+            "spSchCombat": "Combat"
         },
         "weaponTypes": {
             "weaponTypeAssault" : "Assault Rifle",
@@ -37,12 +37,20 @@
             "weaponPropHeat": "Heat",
             "weaponPropHip": "Hip Fire",
             "weaponPropSilent": "Silent",
-            "weaponPropRecoil": "Recoil"
+            "weaponPropRecoil": "Recoil",
+            "weaponPropVented": "Vented",
+            "weaponPropMelee": "Melee"
         },
         "conditionTypes": {
             "condTypeIndoc": "Indoctrinated",
             "condTypeLift": "Lifted",
             "condTypePrime": "Primed",
+            "condTypePrimeCold": "Primed (Cold)",
+            "condTypePrimeFire": "Primed (Fire)",
+            "condTypePrimeForce": "Primed (Force)",
+            "condTypePrimeLightning": "Primed (Lightning)",
+            "condTypePrimeNecrotic": "Primed (Necrotic)",
+            "condTypePrimeRadiant": "Primed (Radiant)",
             "condTypeTarget": "Targeting"
         },
         "tools": {

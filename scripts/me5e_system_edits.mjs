@@ -76,6 +76,8 @@ Hooks.once("init", () => {
     hip: game.i18n.localize("ME5E.weaponProperties.weaponPropHip"),
     snt: game.i18n.localize("ME5E.weaponProperties.weaponPropSilent"),
     coi: game.i18n.localize("ME5E.weaponProperties.weaponPropRecoil"),
+    vnt: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
+    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropVented")
   };
 
   for (const [k, v] of Object.entries(me5eItemProps)) {
@@ -124,6 +126,30 @@ Hooks.once("init", () => {
     },
     primed: {
       label: game.i18n.localize("ME5E.conditionTypes.condTypePrime"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedCold: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeCold"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedFire: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeFire"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedForce: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeForce"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedLightning: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeLightning"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedNecrotic: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeNecrotic"),
+      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+    },
+    primedRadiant: {
+      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeRadiant"),
       icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     targeting: {
