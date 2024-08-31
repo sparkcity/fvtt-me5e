@@ -1,6 +1,1 @@
-2024/08/30-16:51:08.584 2204 Log #207: 0 ops saved to Table #208 OK
-2024/08/30-16:51:08.584 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles/000207.log: OK
-2024/08/30-16:51:08.585 2204 Table #19: 3 entries OK
-2024/08/30-16:51:08.587 2204 Table #139: 163 entries OK
-2024/08/30-16:51:08.590 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles/MANIFEST-000206: OK
-2024/08/30-16:51:08.593 2204 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles; recovered 2 files; 307902 bytes. Some data may have been lost. ****
+2024/08/30-16:51:08.599 2204 Delete type=3 #1

@@ -1,5 +1,1 @@
-2024/08/30-16:51:08.494 2204 Log #306: 0 ops saved to Table #307 OK
-2024/08/30-16:51:08.495 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds/000306.log: OK
-2024/08/30-16:51:08.496 2204 Table #119: 16 entries OK
-2024/08/30-16:51:08.498 2204 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds/MANIFEST-000305: OK
-2024/08/30-16:51:08.501 2204 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds; recovered 1 files; 22490 bytes. Some data may have been lost. ****
+2024/08/30-16:51:08.507 2204 Delete type=3 #1

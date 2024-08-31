@@ -6,18 +6,16 @@
 
 # Content
 
-```
-- Compendiums
-  - Bestiary
+- ME5E Content Compendiums
   - Backgrounds
-  - Classes (with subclasses)
-  - Class Features (with subclass features)
-  - Feats
-  - Items (armor, weapons, weapon mods, armor mods, grenades, programs, etc)
-  - Racial Features
-  - Spells
+  - Bestiary
+  - Classes
+  - Features
+  - Items
+  - Powers
+  - Rules
   - Vehicles
-```
+  - Weapons
 
 (NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any potentially copyright infringing entries have been left out of the Bestiary and will not be added.)
 
@@ -54,3 +52,86 @@ Most icons have been sourced from game-icons.net. Depending on the item and if t
 - Rare: #48baff
 - Very Rare: #bd10e0
 - Legendary (Spec): #d30707
+
+### Compendium Tree Structure
+
+```
+ME5E Content
+└───Backgrounds
+└───Bestiary
+└───Classes
+└───Features
+|   └───Background
+|   └───Class
+|   |   └───Adept
+|   |   └───Engineer
+|   |   └───Experiment
+|   |   └───Explorer
+|   |   └───Infiltrator
+|   |   └───Musician
+|   |   └───Sentinel
+|   |   └───Soldier
+|   |   └───Tracker
+|   |   └───Vanguard
+|   └───Racial
+|   |   └───Ancient Species
+|   |   |   └───1
+|   |   └───Andromeda Species
+|   |   |   └───1
+|   |   |   └───2
+|   |   └───Fringe Species
+|   |   |   └───1
+|   |   |   └───2
+|   |   |   └───3
+|   |   |   └───4
+|   |   |   └───5
+|   |   └───Milky Way Major Species
+|   |   |   └───1
+|   |   |   └───2
+|   |   |   └───3
+|   |   |   └───4
+|   |   |   └───5
+|   |   |   └───6
+|   |   |   └───7
+|   |   └───Milky Way Minor Species
+|   |   |   └───1
+|   |   |   └───2
+|   |   |   └───3
+|   |   |   └───4
+|   └───Subclass
+└───Items
+|   └───Gear
+|   |   └───Ammunition
+|   |   └───Devices
+|   |   └───Grenades
+|   |   └───Programs
+|   |   └───Shields
+|   |   └───Tools
+|   └───Mods
+|   |   └───Armor
+|   |   |   └───Arms
+|   |   |   └───Chest
+|   |   |   └───Head
+|   |   |   └───Legs
+|   |   └───Weapon
+|   |   |   └───Ammo
+|   |   |   └───Barrel
+|   |   |   └───Body
+|   |   |   └───Grip
+|   |   |   └───Magazine
+|   |   |   └───Strike
+|   └───Template Items
+└───Powers
+└───Rules
+└───Vehicles
+|   └───Starships
+|   └───Transports
+└───Weapons
+|   └───Assault Rifles
+|   └───Heavy Pistols
+|   └───Heavy Weapons
+|   └───Melee
+|   └───Shotguns
+|   └───Sniper Rifles
+|   └───SMGs
+```

@@ -1,6 +1,7 @@
-2024/08/30-16:51:08.520 454c Log #307: 0 ops saved to Table #308 OK
-2024/08/30-16:51:08.521 454c Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features/000307.log: OK
-2024/08/30-16:51:08.522 454c Table #119: 19 entries OK
-2024/08/30-16:51:08.528 454c Table #294: 29 entries OK
-2024/08/30-16:51:08.531 454c Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features/MANIFEST-000306: OK
-2024/08/30-16:51:08.533 454c **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features; recovered 2 files; 40146 bytes. Some data may have been lost. ****
+2024/08/30-16:51:08.541 454c Delete type=3 #1
+2024/08/30-19:03:12.952 4a30 Compacting 2@0 + 0@1 files
+2024/08/30-19:03:12.966 4a30 Generated table #311@0: 22 keys, 16929 bytes
+2024/08/30-19:03:12.966 4a30 Compacted 2@0 + 0@1 files => 16929 bytes
+2024/08/30-19:03:12.967 4a30 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/08/30-19:03:12.967 4a30 Delete type=2 #119
+2024/08/30-19:03:12.968 4a30 Delete type=2 #294
