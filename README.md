@@ -30,8 +30,8 @@
 
 - Icons are from [Game-icons.net](https://game-icons.net/).
   - Pistol gun icon by **John Colburn**
-  - Sawed-off shotgun icon; Missile launcher icon; MP5 icon; Uzi icon; CPU icon; Silver bullet icon; Scout ship icon; Bracer icon; Greaves icon; Shoulder armor icon; Leather armor icon; Horizon road icon; Targeting icon; Hive mind icon; Land mine icon; Gravitation icon; Laser turret icon; Spaceship icon; Starfighter icon; Lunar module icon; Stun grenade icon; Machine gun magazine; Classical knowledge icon, Dragon shield icon by **Delapouite**
-  - Battle gear icon; Barbute icon; Book aura icon; Autogun icon; Missile swarm icon; Rocket icon; Sinusoidal beam icon; Strafe icon; Tesla turret icon; Grenade icon; Riot shield icon; Double ringed orb icon by **Lorc**
+  - Sawed-off shotgun icon; Missile launcher icon; MP5 icon; Uzi icon; CPU icon; Silver bullet icon; Scout ship icon; Bracer icon; Greaves icon; Shoulder armor icon; Leather armor icon; Horizon road icon; Targeting icon; Hive mind icon; Land mine icon; Gravitation icon; Laser turret icon; Spaceship icon; Starfighter icon; Lunar module icon; Stun grenade icon; Machine gun magazine; Classical knowledge icon, Dragon shield icon; Cavalry icon by **Delapouite**
+  - Battle gear icon; Barbute icon; Book aura icon; Autogun icon; Missile swarm icon; Rocket icon; Sinusoidal beam icon; Strafe icon; Tesla turret icon; Grenade icon; Riot shield icon; Double ringed orb icon; Paw print icon; Hound icon by **Lorc**
 - Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
 - Compendium content from ME5E v1.4.4. Copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed in order to be compliant with copyright restrictions and not to infringe on any copyright. For full content, GMs and Players should refer to the website for ME5E.
 
