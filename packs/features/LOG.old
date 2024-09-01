@@ -1,5 +1,5 @@
-2024/08/30-23:17:01.054 dc4 Recovering log #317
-2024/08/30-23:17:01.054 dc4 Level-0 table #319: started
-2024/08/30-23:17:01.057 dc4 Level-0 table #319: 39763 bytes OK
-2024/08/30-23:17:01.062 dc4 Delete type=0 #317
-2024/08/30-23:17:01.062 dc4 Delete type=3 #315
+2024/09/01-02:46:34.867 4fc0 Recovering log #323
+2024/09/01-02:46:34.868 4fc0 Level-0 table #326: started
+2024/09/01-02:46:34.871 4fc0 Level-0 table #326: 59487 bytes OK
+2024/09/01-02:46:34.874 4fc0 Delete type=0 #323
+2024/09/01-02:46:34.875 4fc0 Delete type=3 #321
