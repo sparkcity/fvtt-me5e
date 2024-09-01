@@ -15,7 +15,6 @@
   - Powers
   - Rules
   - Vehicles
-  - Weapons
 
 (NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any potentially copyright infringing entries have been left out of the Bestiary and will not be added.)
 
@@ -30,8 +29,9 @@
 
 - Icons are from [Game-icons.net](https://game-icons.net/).
   - Pistol gun icon by **John Colburn**
-  - Sawed-off shotgun icon; Missile launcher icon; MP5 icon; Uzi icon; CPU icon; Silver bullet icon; Scout ship icon; Bracer icon; Greaves icon; Shoulder armor icon; Leather armor icon; Horizon road icon; Targeting icon; Hive mind icon; Land mine icon; Gravitation icon; Laser turret icon; Spaceship icon; Starfighter icon; Lunar module icon; Stun grenade icon; Machine gun magazine; Classical knowledge icon, Dragon shield icon; Cavalry icon by **Delapouite**
-  - Battle gear icon; Barbute icon; Book aura icon; Autogun icon; Missile swarm icon; Rocket icon; Sinusoidal beam icon; Strafe icon; Tesla turret icon; Grenade icon; Riot shield icon; Double ringed orb icon; Paw print icon; Hound icon by **Lorc**
+  - Sawed-off shotgun icon; Missile launcher icon; MP5 icon; Uzi icon; CPU icon; Silver bullet icon; Scout ship icon; Bracer icon; Greaves icon; Shoulder armor icon; Leather armor icon; Horizon road icon; Targeting icon; Hive mind icon; Land mine icon; Gravitation icon; Laser turret icon; Spaceship icon; Starfighter icon; Lunar module icon; Stun grenade icon; Machine gun magazine; Classical knowledge icon, Dragon shield icon; Cavalry icon; F clef icon; G clef icon; Cyber eye icon; by **Delapouite**
+  - Battle gear icon; Barbute icon; Book aura icon; Autogun icon; Missile swarm icon; Rocket icon; Sinusoidal beam icon; Strafe icon; Tesla turret icon; Grenade icon; Riot shield icon; Double ringed orb icon; Paw print icon; Hound icon; Embraced energy icon; Processor icon; Frontal lobe icon; Shiny omega icon; Mushroom cloud icon by **Lorc**
+  - Sound waves icon; Atom icon by **Skoll**
 - Background is from [CharlVera on Pixabay](https://pixabay.com/illustrations/space-earth-gala-planet-universe-4634011/).
 - Compendium content from ME5E v1.4.4. Copyrighted materials, names, or otherwise uniquely distinguishable words related to existing IPs have been omitted or changed in order to be compliant with copyright restrictions and not to infringe on any copyright. For full content, GMs and Players should refer to the website for ME5E.
 
@@ -39,99 +39,29 @@
 
 ## By the Author
 
-As a hobby project, development will take place as time allows. My focus will largely be making sure it stays compatible with Foundry core updates and Dungeons & Dragons system updates. I will add new features if possible when I have the time. Contributions are welcome from anyone interested in testing and adding features.
+- As a hobby project, development will take place as time allows. My focus will largely be making sure it stays compatible with Foundry core updates and Dungeons & Dragons system updates. I will add new features if possible when I have the time. Contributions are welcome from anyone interested in testing and adding features.
+- This is an imperfect implementation of ME5E, but my main goal was to make the compendiums of items, classes, features, and such available to those wanting to run the system. Making an assortment of items can be a tedious process and can feel like a blocker that stops you from playing a system. My hope is that this will help facilitate more people playing. Because of that, and wanting to make it available easily through the official Foundry VTT distribution process of modules, an abundance of caution has been taken in making sure to not to infringe on copyright. This means some names may be changed or obfuscated and some things may have to be omitted entirely.
 
 ## Development
 
 ### Adding new icons
 
-Most icons have been sourced from game-icons.net. Depending on the item and if they have varying rarities, the icons are downloaded with fill colors according to the rarity. Hex colors as follows:
+Most icons have been sourced from game-icons.net. Depending on the item and if they have varying rarities, the icons are downloaded with fill colors according to the rarity. Additionally, the classes and their subclasses have their own hex colors according to their shields on the source website being eyedropped. Hex colors as follows:
 
-- Common: #ffffff
-- Uncommon: #7ed321
-- Rare: #48baff
-- Very Rare: #bd10e0
-- Legendary (Spec): #d30707
-
-### Compendium Tree Structure
-
-```
-ME5E Content
-└───Backgrounds
-└───Bestiary
-└───Classes
-└───Features
-|   └───Background
-|   └───Class
-|   |   └───Adept
-|   |   └───Engineer
-|   |   └───Experiment
-|   |   └───Explorer
-|   |   └───Infiltrator
-|   |   └───Musician
-|   |   └───Sentinel
-|   |   └───Soldier
-|   |   └───Tracker
-|   |   └───Vanguard
-|   └───Racial
-|   |   └───Ancient Species
-|   |   |   └───1
-|   |   └───Andromeda Species
-|   |   |   └───1
-|   |   |   └───2
-|   |   └───Fringe Species
-|   |   |   └───1
-|   |   |   └───2
-|   |   |   └───3
-|   |   |   └───4
-|   |   |   └───5
-|   |   └───Milky Way Major Species
-|   |   |   └───1
-|   |   |   └───2
-|   |   |   └───3
-|   |   |   └───4
-|   |   |   └───5
-|   |   |   └───6
-|   |   |   └───7
-|   |   └───Milky Way Minor Species
-|   |   |   └───1
-|   |   |   └───2
-|   |   |   └───3
-|   |   |   └───4
-|   └───Subclass
-└───Items
-|   └───Gear
-|   |   └───Ammunition
-|   |   └───Devices
-|   |   └───Grenades
-|   |   └───Programs
-|   |   └───Shields
-|   |   └───Tools
-|   └───Mods
-|   |   └───Armor
-|   |   |   └───Arms
-|   |   |   └───Chest
-|   |   |   └───Head
-|   |   |   └───Legs
-|   |   └───Weapon
-|   |   |   └───Ammo
-|   |   |   └───Barrel
-|   |   |   └───Body
-|   |   |   └───Grip
-|   |   |   └───Magazine
-|   |   |   └───Strike
-|   └───Template Items
-└───Powers
-└───Rules
-└───Vehicles
-|   └───Starships
-|   └───Transports
-└───Weapons
-|   └───Assault Rifles
-|   └───Heavy Pistols
-|   └───Heavy Weapons
-|   └───Melee
-|   └───Shotguns
-|   └───Sniper Rifles
-|   └───SMGs
-```
+- **Rarities**
+  - Common: #ffffff
+  - Uncommon: #7ed321
+  - Rare: #48baff
+  - Very Rare: #bd10e0
+  - Legendary (Spec): #d30707
+- **Classes**
+  - Adept: #5a4a86
+  - Engineer: #c5791e
+  - Experiment: #5b7e9d
+  - Explorer: frame #5a4a86; background #f5a623; foreground #ac2b35
+  - Infiltrator: background #ac2b35; foreground #c5791e
+  - Musician: #64ffda
+  - Sentinel: background #5a4a86; foreground #c5791e
+  - Soldier: #ac2b35
+  - Tracker: #22b14c
+  - Vanguard: foreground #5a4a86; background #ac2b35
