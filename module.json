@@ -32,13 +32,6 @@
 			"type": "Item"
 		},
 		{
-			"name": "weapons",
-			"label": "Weapons",
-			"system": "dnd5e",
-			"path": "packs/weapons",
-			"type": "Item"
-		},
-		{
 			"name": "vehicles",
 			"label": "Vehicles",
 			"system": "dnd5e",
@@ -83,7 +76,6 @@
 				"items-me5e",
 				"backgrounds",
 				"features",
-				"weapons",
 				"vehicles",
 				"bestiary",
 				"classes",
