@@ -77,7 +77,7 @@ Hooks.once("init", () => {
     snt: game.i18n.localize("ME5E.weaponProperties.weaponPropSilent"),
     coi: game.i18n.localize("ME5E.weaponProperties.weaponPropRecoil"),
     vnt: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
-    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
+    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropMelee"),
   };
 
   for (const [k, v] of Object.entries(me5eItemProps)) {
