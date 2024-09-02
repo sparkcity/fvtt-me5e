@@ -22,7 +22,7 @@ Hooks.once("init", () => {
   };
 
   // Adds ME5E as a suggested book when you define the source of an item
-  CONFIG.DND5E.sourceBooks.ME5E = "ME5E";
+  CONFIG.DND5E.sourceBooks.ME5E = "ME5E 1.4.4";
 
   // Replace unused skills with ME5E ones
   CONFIG.DND5E.skills.arc = {
@@ -77,7 +77,7 @@ Hooks.once("init", () => {
     snt: game.i18n.localize("ME5E.weaponProperties.weaponPropSilent"),
     coi: game.i18n.localize("ME5E.weaponProperties.weaponPropRecoil"),
     vnt: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
-    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropVented")
+    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
   };
 
   for (const [k, v] of Object.entries(me5eItemProps)) {
