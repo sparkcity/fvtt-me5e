@@ -189,10 +189,6 @@ Hooks.once("init", () => {
     CONFIG.DND5E.equipmentTypes.armormod = game.i18n.localize(
       "ME5E.equipmentTypes.equipTypeArmorMod"
     );
-  CONFIG.DND5E.miscEquipmentTypes.bodyarmor =
-    CONFIG.DND5E.equipmentTypes.bodyarmor = game.i18n.localize(
-      "ME5E.equipmentTypes.equipTypeBodyArmor"
-    );
   CONFIG.DND5E.miscEquipmentTypes.weaponmod =
     CONFIG.DND5E.equipmentTypes.weaponmod = game.i18n.localize(
       "ME5E.equipmentTypes.equipTypeWeaponMod"
