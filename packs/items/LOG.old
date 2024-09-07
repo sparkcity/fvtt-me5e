@@ -1,1 +1,6 @@
-2024/09/05-19:53:20.726 6d98 Delete type=3 #1
+2024/09/06-22:47:30.116 884 Log #429: 0 ops saved to Table #430 OK
+2024/09/06-22:47:30.117 884 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items/000429.log: OK
+2024/09/06-22:47:30.124 884 Table #415: 566 entries OK
+2024/09/06-22:47:30.130 884 Table #417: 108 entries OK
+2024/09/06-22:47:30.132 884 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items/MANIFEST-000428: OK
+2024/09/06-22:47:30.136 884 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items; recovered 2 files; 732911 bytes. Some data may have been lost. ****
