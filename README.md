@@ -9,14 +9,178 @@
 - ME5E Content Compendiums
   - Backgrounds
   - Bestiary
-  - Classes
   - Features
+    - Background
+    - Class
+      - Adept
+      - Engineer
+      - Experiment
+      - Explorer
+      - Infiltrator
+      - Musician
+      - Sentinel
+      - Soldier
+      - Tracker
+      - Vanguard
+    - Feat
+    - Racial
+      - Ancient Species
+        - 1
+      - Andromeda Species
+        - 1
+        - 2
+      - Fringe Species
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+      - Milky Way Major Species
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+      - Milky Way Minor Species
+        - 1
+        - 2
+        - 3
+        - 4
+    - Subclass
+      - Adept
+        - Blackstar
+        - Commando
+        - Fury
+        - Justicar
+        - Nuclear
+        - Phasic
+      - Engineer
+        - Armorer
+        - Biohacker
+        - Bowman
+        - Chemist
+        - Drone Jockey
+        - Holosmith
+        - Mastermind
+        - Medic
+        - STG
+      - Experiment
+        - Biotic
+        - Cybernetic
+        - Reaper
+      - Explorer
+        - Path of Cyber
+        - Path of Eezo
+        - Path of the Voidhopper
+        - Path of War
+      - Infiltrator
+        - Brawler
+        - Devotee of the Old Ways
+        - Pistolero
+        - Poisoner
+        - Saboteur
+        - Shadow
+        - Sniper
+        - Stalker
+      - Musician
+        - Operatic
+        - Techno
+        - Tradition
+      - Sentinel
+        - Artillerist
+        - Bastion
+        - Field Medic
+        - Guardian
+        - Juggernaut
+        - Warleader
+        - Warlord
+      - Soldier
+        - Armiger
+        - Engiknight
+        - Gladiator
+        - Havoc
+        - Holo-Operative
+        - Incubus
+        - Legionnaire
+        - Migrant Marine
+        - Nanobreaker
+        - Painkiller
+        - Reaver/Enforcer
+        - Weapon Master
+      - Tracker
+        - Beast Master
+        - Bloodhound
+        - Outrider
+      - Vanguard
+        - Battle Master
+        - Cabal
+        - Cardinal
+        - Nemesis
+        - Ravager
+        - Shock Trooper
+        - Valkyrie
+        - Void Fist
+        - Warp Gunner
   - Items
+    - Armor
+      - Arms
+      - Body Armor
+      - Chest
+      - Head
+      - Legs
+    - Gear
+      - Ammunition
+      - Devices
+      - Grenades
+      - Programs
+      - Shields
+      - Tools
+    - Mods
+      - Armor
+        - Arms
+        - Chest
+        - Head
+        - Legs
+      - Weapons
+        - Ammo
+        - Barrel
+        - Body
+        - Grip
+        - Magazine
+        - Strike
+    - Template Items
+    - Weapons
+      - Assault Rifles
+      - Heavy Pistols
+      - Heavy Weapons
+      - Melee
+      - Shotguns
+      - SMGs
+      - Sniper Rifles
   - Powers
+    - Biotics
+      - 1st Level
+      - 2nd Level
+      - 3rd Level
+      - 4th Level
+      - Cantrips
+    - Combat
+      - Cantrips
+    - Tech
+      - 1st Level
+      - 2nd Level
+      - 3rd Level
+      - Cantrips
   - Rules
   - Vehicles
-
-(NOTE: Races from ME5e are copyright infringing and will not be included in this module. Similarly, any potentially copyright infringing entries have been left out of the Bestiary and will not be added.)
+    - Starships
+      - Carrier
+      - Cruiser
+      - Dreadnought
+      - Frigate
+    - Transports
 
 # Acknowledgements and Attributions
 

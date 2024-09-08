@@ -1,6 +1,1 @@
-2024/09/06-22:47:30.194 18dc Log #360: 0 ops saved to Table #361 OK
-2024/09/06-22:47:30.195 18dc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features/000360.log: OK
-2024/09/06-22:47:30.199 18dc Table #352: 562 entries OK
-2024/09/06-22:47:30.203 18dc Table #354: 359 entries OK
-2024/09/06-22:47:30.206 18dc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features/MANIFEST-000359: OK
-2024/09/06-22:47:30.209 18dc **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\features; recovered 2 files; 694064 bytes. Some data may have been lost. ****
+2024/09/06-22:47:30.217 18dc Delete type=3 #1

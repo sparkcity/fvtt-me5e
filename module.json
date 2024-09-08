@@ -46,13 +46,6 @@
 			"type": "Actor"
 		},
 		{
-			"name": "classes",
-			"label": "Classes",
-			"system": "dnd5e",
-			"path": "packs/classes",
-			"type": "Item"
-		},
-		{
 			"name": "powers",
 			"label": "Powers",
 			"system": "dnd5e",
@@ -78,7 +71,6 @@
 				"features",
 				"vehicles",
 				"bestiary",
-				"classes",
 				"powers",
 				"rules"
 	  		]
