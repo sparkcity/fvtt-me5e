@@ -112,7 +112,7 @@
 	],
 	"version": "2.0.0",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
-	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.json",
-	"download": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.zip",
+	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.0.0/module.json",
+	"download": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.0.0/module.zip",
 	"readme": "https://github.com/sparkcity/fvtt-me5e/blob/master/README.md"
   }
