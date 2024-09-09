@@ -22,6 +22,7 @@
       - Soldier
       - Tracker
       - Vanguard
+    - Creature
     - Feat
     - Racial
       - Ancient Species
