@@ -204,26 +204,26 @@ Hooks.once("init", () => {
   );
 
   //Add ME5E tool proficiencies IDs
-  CONFIG.DND5E.toolIds.armorsmithtool =
+  CONFIG.DND5E.tools.armorsmithtool =
     "Compendium.fvtt-me5e.items-me5e.Item.fi5seHBSJlL5oezH";
-  CONFIG.DND5E.toolIds.chemisttool =
+  CONFIG.DND5E.tools.chemisttool =
     "Compendium.fvtt-me5e.items-me5e.Item.IRuDN4PHt39s4OMv";
-  CONFIG.DND5E.toolIds.hackingtool =
+  CONFIG.DND5E.tools.hackingtool =
     "Compendium.fvtt-me5e.items-me5e.Item.tjzo96t71HDQoBVT";
-  CONFIG.DND5E.toolIds.medicaltool =
+  CONFIG.DND5E.tools.medicaltool =
     "Compendium.fvtt-me5e.items-me5e.Item.x69e18GsSnjwmYXw";
-  CONFIG.DND5E.toolIds.starshipdrive =
+  CONFIG.DND5E.tools.starshipdrive =
     "Compendium.fvtt-me5e.items-me5e.Item.XgQfWGXFkjKw3X8T";
-  CONFIG.DND5E.toolIds.starshipews =
+  CONFIG.DND5E.tools.starshipews =
     "Compendium.fvtt-me5e.items-me5e.Item.1yiADlMcYaixDzPR";
-  CONFIG.DND5E.toolIds.starshiphelm =
+  CONFIG.DND5E.tools.starshiphelm =
     "Compendium.fvtt-me5e.items-me5e.Item.pMmFHFM2ICJxvk4g";
-  CONFIG.DND5E.toolIds.starshipnavg =
+  CONFIG.DND5E.tools.starshipnavg =
     "Compendium.fvtt-me5e.items-me5e.Item.z3zCYhwZg8eDFROr";
-  CONFIG.DND5E.toolIds.starshipssc =
+  CONFIG.DND5E.tools.starshipssc =
     "Compendium.fvtt-me5e.items-me5e.Item.KIAoHK6rtipLFmUY";
-  CONFIG.DND5E.toolIds.starshipweap =
+  CONFIG.DND5E.tools.starshipweap =
     "Compendium.fvtt-me5e.items-me5e.Item.nttGDd2AGMe821lm";
-  CONFIG.DND5E.toolIds.weaponsmithtool =
+  CONFIG.DND5E.tools.weaponsmithtool =
     "Compendium.fvtt-me5e.items-me5e.Item.OWvQBq1ylb9FafvH";
 });
