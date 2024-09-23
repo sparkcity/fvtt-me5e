@@ -4,6 +4,8 @@
 [![DND5E](https://img.shields.io/badge/DnD5E-4.0.1-red)](https://gitlab.com/foundrynet/dnd5e)
 ![Static Badge](https://img.shields.io/badge/ME5E-1.4.4-blue)
 
+![Demo image of ME5E module](https://raw.githubusercontent.com/sparkcity/fvtt-me5e/refs/heads/main/demo/demo1.webp)
+
 # Content
 
 - ME5E Content Compendiums
