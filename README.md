@@ -1,7 +1,7 @@
 [![Foundry](https://img.shields.io/badge/Foundry%40CompatibleCore-v12-brightgreen)](https://foundryvtt.com/)
 ![GitHub All Releases](https://img.shields.io/github/downloads/sparkcity/fvtt-me5e/total)
 ![GitHub @Latest](https://img.shields.io/github/downloads/sparkcity/fvtt-me5e/latest/total)
-[![DND5E](https://img.shields.io/badge/DnD5E-4.1.0-blueviolet)](https://gitlab.com/foundrynet/dnd5e)
+[![DND5E](https://img.shields.io/badge/DnD5E-4.1.2-blueviolet)](https://gitlab.com/foundrynet/dnd5e)
 ![Static Badge](https://img.shields.io/badge/ME5E-1.4.4-blue)
 
 ![Demo image of ME5E module](https://raw.githubusercontent.com/sparkcity/fvtt-me5e/refs/heads/main/demo/demo1.webp)
