@@ -1,3 +1,8 @@
-2025/01/23-21:52:51.248 4aac Recovering log #409
-2025/01/23-21:52:51.253 4aac Delete type=0 #409
-2025/01/23-21:52:51.253 4aac Delete type=3 #408
+2025/04/16-19:17:02.908 3adc Log #413: 1 ops saved to Table #414 OK
+2025/04/16-19:17:02.908 3adc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds/000413.log: OK
+2025/04/16-19:17:02.910 3adc Table #373: 16 entries OK
+2025/04/16-19:17:02.916 3adc Table #401: 1 entries OK
+2025/04/16-19:17:02.919 3adc Table #404: 1 entries OK
+2025/04/16-19:17:02.919 3adc Table #414: 1 entries OK
+2025/04/16-19:17:02.921 3adc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds/MANIFEST-000412: OK
+2025/04/16-19:17:02.923 3adc **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\backgrounds; recovered 4 files; 28735 bytes. Some data may have been lost. ****

@@ -1,3 +1,9 @@
-2025/02/27-18:19:27.982 2e1c Recovering log #498
-2025/02/27-18:19:27.985 2e1c Delete type=0 #498
-2025/02/27-18:19:27.986 2e1c Delete type=3 #497
+2025/04/16-19:17:02.887 5338 Delete type=3 #1
+2025/04/16-19:17:02.888 3efc Compacting 4@0 + 0@1 files
+2025/04/16-19:17:02.898 3efc Generated table #504@0: 605 keys, 667919 bytes
+2025/04/16-19:17:02.898 3efc Compacted 4@0 + 0@1 files => 667919 bytes
+2025/04/16-19:17:02.899 3efc compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/04/16-19:17:02.899 3efc Delete type=2 #459
+2025/04/16-19:17:02.899 3efc Delete type=2 #463
+2025/04/16-19:17:02.899 3efc Delete type=2 #466
+2025/04/16-19:17:02.899 3efc Delete type=2 #495
