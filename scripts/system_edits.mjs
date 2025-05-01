@@ -1,21 +1,21 @@
 Hooks.once("init", () => {
   // Add ME5E 'spellcasting' schools
   CONFIG.DND5E.spellSchools.btc = {
-    label: game.i18n.localize("ME5E.spellSchools.spSchBiotics"),
+    label: "ME5E.spellSchools.spSchBiotics",
     icon: "modules/fvtt-me5e/assets/icons/spellschool-biotics.svg",
     fullKey: "biotics",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.cmt = {
-    label: game.i18n.localize("ME5E.spellSchools.spSchCombat"),
+    label: "ME5E.spellSchools.spSchCombat",
     icon: "modules/fvtt-me5e/assets/icons/spellschool-combatpowers.svg",
     fullKey: "combat powers",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.tec = {
-    label: game.i18n.localize("ME5E.spellSchools.spSchTech"),
+    label: "ME5E.spellSchools.spSchTech",
     icon: "modules/fvtt-me5e/assets/icons/spellschool-tech.svg",
     fullKey: "tech",
     reference: "",
@@ -26,28 +26,28 @@ Hooks.once("init", () => {
 
   // Replace unused skills with ME5E ones
   CONFIG.DND5E.skills.arc = {
-    label: game.i18n.localize("ME5E.skills.skillElectronics"),
+    label: "ME5E.skills.skillElectronics",
     ability: "int",
     fullKey: "electronics",
     icon: "",
   };
 
   CONFIG.DND5E.skills.nat = {
-    label: game.i18n.localize("ME5E.skills.skillEngineering"),
+    label: "ME5E.skills.skillEngineering",
     ability: "int",
     fullKey: "engineering",
     icon: "",
   };
 
   CONFIG.DND5E.skills.rel = {
-    label: game.i18n.localize("ME5E.skills.skillScience"),
+    label: "ME5E.skills.skillScience",
     ability: "int",
     fullKey: "science",
     icon: "",
   };
 
   CONFIG.DND5E.skills.ani = {
-    label: game.i18n.localize("ME5E.skills.skillVehicleHandling"),
+    label: "ME5E.skills.skillVehicleHandling",
     ability: "dex",
     fullKey: "vehicle handling",
     icon: "",
@@ -56,28 +56,28 @@ Hooks.once("init", () => {
   // Add ME5E consumables
 
   CONFIG.DND5E.consumableTypes.suprogram = {
-    label: game.i18n.localize("ME5E.consumableTypes.consumTypeSUProgram"),
+    label: "ME5E.consumableTypes.consumTypeSUProgram",
   };
 
   CONFIG.DND5E.consumableTypes.grenade = {
-    label: game.i18n.localize("ME5E.consumableTypes.consumTypeGrenade"),
+    label: "ME5E.consumableTypes.consumTypeGrenade",
   };
 
   CONFIG.DND5E.consumableTypes.narcotic = {
-    label: game.i18n.localize("ME5E.consumableTypes.consumTypeNarcotic"),
+    label: "ME5E.consumableTypes.consumTypeNarcotic",
   };
 
   // Add ME5E item properties and push to validProperties so they're available on item sheets
   const me5eItemProps = {
-    arc: game.i18n.localize("ME5E.weaponProperties.weaponPropArc"),
-    bst: game.i18n.localize("ME5E.weaponProperties.weaponPropBurst"),
-    dtp: game.i18n.localize("ME5E.weaponProperties.weaponPropDouble"),
-    het: game.i18n.localize("ME5E.weaponProperties.weaponPropHeat"),
-    hip: game.i18n.localize("ME5E.weaponProperties.weaponPropHip"),
-    snt: game.i18n.localize("ME5E.weaponProperties.weaponPropSilent"),
-    coi: game.i18n.localize("ME5E.weaponProperties.weaponPropRecoil"),
-    vnt: game.i18n.localize("ME5E.weaponProperties.weaponPropVented"),
-    mle: game.i18n.localize("ME5E.weaponProperties.weaponPropMelee"),
+    arc: "ME5E.weaponProperties.weaponPropArc",
+    bst: "ME5E.weaponProperties.weaponPropBurst",
+    dtp: "ME5E.weaponProperties.weaponPropDouble",
+    het: "ME5E.weaponProperties.weaponPropHeat",
+    hip: "ME5E.weaponProperties.weaponPropHip",
+    snt: "ME5E.weaponProperties.weaponPropSilent",
+    coi: "ME5E.weaponProperties.weaponPropRecoil",
+    vnt: "ME5E.weaponProperties.weaponPropVented",
+    mle: "ME5E.weaponProperties.weaponPropMelee",
   };
 
   for (const [k, v] of Object.entries(me5eItemProps)) {
@@ -109,7 +109,7 @@ Hooks.once("init", () => {
 
   CONFIG.DND5E.currencies = {
     credits: {
-      label: game.i18n.localize("ME5E.currencies.currency"),
+      label: "ME5E.currencies.currency",
       abbreviation: "ȼ",
       conversion: 1,
     },
@@ -117,43 +117,43 @@ Hooks.once("init", () => {
   // Add ME5E condition types
   const me5eConditions = {
     indoctrinated: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypeIndoc"),
+      name: "ME5E.conditionTypes.condTypeIndoc",
       img: "modules/fvtt-me5e/assets/icons/status-indoctrinated.svg",
     },
     lifted: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypeLift"),
+      name: "ME5E.conditionTypes.condTypeLift",
       img: "modules/fvtt-me5e/assets/icons/status-lifted.svg",
     },
     primed: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrime"),
+      name: "ME5E.conditionTypes.condTypePrime",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedCold: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeCold"),
+      name: "ME5E.conditionTypes.condTypePrimeCold",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedFire: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeFire"),
+      name: "ME5E.conditionTypes.condTypePrimeFire",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedForce: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeForce"),
+      name: "ME5E.conditionTypes.condTypePrimeForce",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedLightning: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeLightning"),
+      name: "ME5E.conditionTypes.condTypePrimeLightning",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedNecrotic: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeNecrotic"),
+      name: "ME5E.conditionTypes.condTypePrimeNecrotic",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedRadiant: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeRadiant"),
+      name: "ME5E.conditionTypes.condTypePrimeRadiant",
       img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     targeting: {
-      name: game.i18n.localize("ME5E.conditionTypes.condTypeTarget"),
+      name: "ME5E.conditionTypes.condTypeTarget",
       img: "modules/fvtt-me5e/assets/icons/status-targeting.svg",
     },
   };
@@ -186,17 +186,17 @@ Hooks.once("init", () => {
 
   // Add ME5E misc equipment types
   CONFIG.DND5E.miscEquipmentTypes.armormod =
-    CONFIG.DND5E.equipmentTypes.armormod = game.i18n.localize(
+    CONFIG.DND5E.equipmentTypes.armormod = 
       "ME5E.equipmentTypes.equipTypeArmorMod"
-    );
+    ;
   CONFIG.DND5E.miscEquipmentTypes.weaponmod =
-    CONFIG.DND5E.equipmentTypes.weaponmod = game.i18n.localize(
+    CONFIG.DND5E.equipmentTypes.weaponmod = 
       "ME5E.equipmentTypes.equipTypeWeaponMod"
-    );
+    ;
   CONFIG.DND5E.miscEquipmentTypes.program =
-    CONFIG.DND5E.equipmentTypes.program = game.i18n.localize(
+    CONFIG.DND5E.equipmentTypes.program = 
       "ME5E.equipmentTypes.equipTypeProgram"
-    );
+    ;
 
   //Add ME5E tool proficiencies IDs
   CONFIG.DND5E.tools.armorsmithtool = {
