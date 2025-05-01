@@ -19,16 +19,6 @@ body.game {
     font-family: "Oxanium Light", "Oxanium Bold", sans-serif;
   }
 
-
-#sidebar {
-    background-color: #000033;
-}
-
-button {
-    font-size: var(--font-size-12);
-    font-family: "Oxanium Light";
-}
-
 div.progress.hit-points.shields::before {
     background: linear-gradient(to right,
     #1b1d4b 0%,
