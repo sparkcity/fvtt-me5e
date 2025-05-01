@@ -84,8 +84,8 @@
 		}
 	],
 	"compatibility": {
-		"minimum": "12",
-		"verified": "12.331",
+		"minimum": "12.331",
+		"verified": "13",
 		"maximum": "13"
 	},
 	"relationships": {
@@ -97,7 +97,7 @@
 					{
 						"minimum":"4.0.0",
 						"maximum": "5.0.99",
-						"verified": "4.3.8"
+						"verified": "5.0.1"
 					}
 				]
 			}
