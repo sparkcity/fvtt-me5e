@@ -14,49 +14,49 @@
 			"name": "items-me5e",
 			"label": "Items",
 			"system": "dnd5e",
-			"path": "packs/items",
+			"path": "/packs/items",
 			"type": "Item"
 		},
 		{
 			"name": "backgrounds",
 			"label": "Backgrounds",
 			"system": "dnd5e",
-			"path": "packs/backgrounds",
+			"path": "/packs/backgrounds",
 			"type": "Item"
 		},
 		{
 			"name": "features",
 			"label": "Features",
 			"system": "dnd5e",
-			"path": "packs/features",
+			"path": "/packs/features",
 			"type": "Item"
 		},
 		{
 			"name": "vehicles",
 			"label": "Vehicles",
 			"system": "dnd5e",
-			"path": "packs/vehicles",
+			"path": "/packs/vehicles",
 			"type": "Actor"
 		},
 		{
 			"name": "bestiary",
 			"label": "Bestiary",
 			"system": "dnd5e",
-			"path": "packs/bestiary",
+			"path": "/packs/bestiary",
 			"type": "Actor"
 		},
 		{
 			"name": "powers",
 			"label": "Powers",
 			"system": "dnd5e",
-			"path": "packs/powers",
+			"path": "/packs/powers",
 			"type": "Item"
 		},
 		{
 			"name": "rules",
 			"label": "Rules",
 			"system": "dnd5e",
-			"path": "packs/rules",
+			"path": "/packs/rules",
 			"type": "JournalEntry"
 		}
 	  ],
@@ -80,13 +80,13 @@
 		{
 		  "lang": "en",
 		  "name": "English",
-		  "path": "lang/en.json"
+		  "path": "/lang/en.json"
 		}
 	],
 	"compatibility": {
 		"minimum": "12",
 		"verified": "12.331",
-		"maximum": "12.331"
+		"maximum": "13"
 	},
 	"relationships": {
 		"systems": [
@@ -96,7 +96,7 @@
 				"compatibility": [
 					{
 						"minimum":"4.0.0",
-						"maximum": "4.3.8",
+						"maximum": "5.0.99",
 						"verified": "4.3.8"
 					}
 				]
@@ -110,9 +110,9 @@
 			"url": "https://github.com/sparkcity"
 		}
 	],
-	"version": "2.4.5",
+	"version": "2.5.0",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
-	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.4.5/module.json",
-	"download": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.4.5/module.zip",
+	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.0/module.json",
+	"download": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.0/module.zip",
 	"readme": "https://github.com/sparkcity/fvtt-me5e/blob/master/README.md"
   }

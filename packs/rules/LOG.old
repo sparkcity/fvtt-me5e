@@ -1,6 +1,3 @@
-2025/04/16-19:17:03.045 3adc Log #108: 0 ops saved to Table #109 OK
-2025/04/16-19:17:03.045 3adc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules/000108.log: OK
-2025/04/16-19:17:03.046 3adc Table #69: 5 entries OK
-2025/04/16-19:17:03.048 3adc Table #87: 310 entries OK
-2025/04/16-19:17:03.049 3adc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules/MANIFEST-000107: OK
-2025/04/16-19:17:03.051 3adc **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules; recovered 2 files; 96455 bytes. Some data may have been lost. ****
+2025/04/30-22:37:47.466 26b8 Recovering log #123
+2025/04/30-22:37:47.470 26b8 Delete type=0 #123
+2025/04/30-22:37:47.470 26b8 Delete type=3 #122

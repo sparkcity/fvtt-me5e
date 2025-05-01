@@ -117,44 +117,44 @@ Hooks.once("init", () => {
   // Add ME5E condition types
   const me5eConditions = {
     indoctrinated: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypeIndoc"),
-      icon: "modules/fvtt-me5e/assets/icons/status-indoctrinated.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypeIndoc"),
+      img: "modules/fvtt-me5e/assets/icons/status-indoctrinated.svg",
     },
     lifted: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypeLift"),
-      icon: "modules/fvtt-me5e/assets/icons/status-lifted.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypeLift"),
+      img: "modules/fvtt-me5e/assets/icons/status-lifted.svg",
     },
     primed: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrime"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrime"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedCold: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeCold"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeCold"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedFire: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeFire"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeFire"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedForce: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeForce"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeForce"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedLightning: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeLightning"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeLightning"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedNecrotic: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeNecrotic"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeNecrotic"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     primedRadiant: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypePrimeRadiant"),
-      icon: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypePrimeRadiant"),
+      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
     },
     targeting: {
-      label: game.i18n.localize("ME5E.conditionTypes.condTypeTarget"),
-      icon: "modules/fvtt-me5e/assets/icons/status-targeting.svg",
+      name: game.i18n.localize("ME5E.conditionTypes.condTypeTarget"),
+      img: "modules/fvtt-me5e/assets/icons/status-targeting.svg",
     },
   };
 
@@ -162,8 +162,8 @@ Hooks.once("init", () => {
     CONFIG.statusEffects.push({
       id: k,
       _id: dnd5e.utils.staticID(`dnd5e${k}`),
-      name: v.label,
-      img: v.icon,
+      name: v.name,
+      img: v.img,
       reference: "",
     });
     CONFIG.DND5E.conditionTypes[k] = { ...v, pseudo: false };
