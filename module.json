@@ -97,7 +97,7 @@
 					{
 						"minimum":"4.0.0",
 						"maximum": "5.0.99",
-						"verified": "5.0.1"
+						"verified": "5.0.3"
 					}
 				]
 			}
@@ -110,9 +110,9 @@
 			"url": "https://github.com/sparkcity"
 		}
 	],
-	"version": "2.5.0",
+	"version": "2.5.1",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
-	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.0/module.json",
-	"download": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.0/module.zip",
+	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.1/module.json",
+	"download": "https://github.com/sparkcity/fvtt-me5e/releases/download/2.5.1/module.zip",
 	"readme": "https://github.com/sparkcity/fvtt-me5e/blob/master/README.md"
   }

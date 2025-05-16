@@ -1,4 +1,4 @@
-Hooks.once("init", () => {
+Hooks.once("i18nInit", () => {
   // Add ME5E 'spellcasting' schools
   CONFIG.DND5E.spellSchools.btc = {
     label: "ME5E.spellSchools.spSchBiotics",
