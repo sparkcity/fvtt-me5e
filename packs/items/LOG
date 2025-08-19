@@ -1,3 +1,5 @@
-2025/08/18-19:09:43.017 61d8 Recovering log #547
-2025/08/18-19:09:43.020 61d8 Delete type=0 #547
-2025/08/18-19:09:43.020 61d8 Delete type=3 #546
+2025/08/18-21:36:51.329 5cec Recovering log #549
+2025/08/18-21:36:51.331 5cec Level-0 table #551: started
+2025/08/18-21:36:51.340 5cec Level-0 table #551: 637208 bytes OK
+2025/08/18-21:36:51.343 5cec Delete type=0 #549
+2025/08/18-21:36:51.343 5cec Delete type=3 #548
