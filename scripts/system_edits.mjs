@@ -2,21 +2,21 @@ Hooks.once("init", () => {
   // Add ME5E 'spellcasting' schools
   CONFIG.DND5E.spellSchools.btc = {
     label: "ME5E.spellSchools.spSchBiotics",
-    icon: "modules/fvtt-me5e/assets/icons/spellschool-biotics.svg",
+    icon: "modules/fvtt-me5e/assets/icons/spellschool-biotics.webp",
     fullKey: "biotics",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.cmt = {
     label: "ME5E.spellSchools.spSchCombat",
-    icon: "modules/fvtt-me5e/assets/icons/spellschool-combatpowers.svg",
+    icon: "modules/fvtt-me5e/assets/icons/spellschool-combatpowers.webp",
     fullKey: "combat powers",
     reference: "",
   };
 
   CONFIG.DND5E.spellSchools.tec = {
     label: "ME5E.spellSchools.spSchTech",
-    icon: "modules/fvtt-me5e/assets/icons/spellschool-tech.svg",
+    icon: "modules/fvtt-me5e/assets/icons/spellschool-tech.webp",
     fullKey: "tech",
     reference: "",
   };
@@ -118,43 +118,43 @@ Hooks.once("init", () => {
   const me5eConditions = {
     indoctrinated: {
       name: "ME5E.conditionTypes.condTypeIndoc",
-      img: "modules/fvtt-me5e/assets/icons/status-indoctrinated.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-indoctrinated.webp",
     },
     lifted: {
       name: "ME5E.conditionTypes.condTypeLift",
-      img: "modules/fvtt-me5e/assets/icons/status-lifted.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-lifted.webp",
     },
     primed: {
       name: "ME5E.conditionTypes.condTypePrime",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedCold: {
       name: "ME5E.conditionTypes.condTypePrimeCold",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedFire: {
       name: "ME5E.conditionTypes.condTypePrimeFire",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedForce: {
       name: "ME5E.conditionTypes.condTypePrimeForce",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedLightning: {
       name: "ME5E.conditionTypes.condTypePrimeLightning",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedNecrotic: {
       name: "ME5E.conditionTypes.condTypePrimeNecrotic",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     primedRadiant: {
       name: "ME5E.conditionTypes.condTypePrimeRadiant",
-      img: "modules/fvtt-me5e/assets/icons/status-primed.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-primed.webp",
     },
     targeting: {
       name: "ME5E.conditionTypes.condTypeTarget",
-      img: "modules/fvtt-me5e/assets/icons/status-targeting.svg",
+      img: "modules/fvtt-me5e/assets/icons/status-targeting.webp",
     },
   };
 
@@ -167,7 +167,7 @@ Hooks.once("init", () => {
       reference: "",
     });
     CONFIG.DND5E.conditionTypes[k] = { ...v, pseudo: false };
-    CONFIG.DND5E.statusEffects[k] = { name: v.label, icon: v.icon };
+    CONFIG.DND5E.statusEffects[k] = { name: v.name, icon: v.icon };
   }
 
   // Add ME5E weapon IDs
