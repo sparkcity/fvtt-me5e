@@ -85,7 +85,7 @@
 	],
 	"compatibility": {
 		"minimum": "12.331",
-		"verified": "13.348",
+		"verified": "13.350",
 		"maximum": "13.999"
 	},
 	"relationships": {
@@ -110,7 +110,7 @@
 			"url": "https://github.com/sparkcity"
 		}
 	],
-	"version": "2.7.0",
+	"version": "2.9.0",
 	"url": "https://github.com/sparkcity/fvtt-me5e",
 	"manifest": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.json",
 	"download": "https://github.com/sparkcity/fvtt-me5e/releases/latest/download/module.zip",
