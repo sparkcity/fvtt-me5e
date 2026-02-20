@@ -1,0 +1,5 @@
+2026/02/19-22:11:17.549 ca4 Recovering log #391
+2026/02/19-22:11:17.550 ca4 Level-0 table #393: started
+2026/02/19-22:11:17.556 ca4 Level-0 table #393: 137866 bytes OK
+2026/02/19-22:11:17.558 ca4 Delete type=0 #391
+2026/02/19-22:11:17.559 ca4 Delete type=3 #390
