@@ -53,7 +53,7 @@ export const loadConditionTypesEdits = function () {
       reference: "",
     });
     CONFIG.DND5E.conditionTypes[k] = { ...v, pseudo: false };
-    CONFIG.DND5E.statusEffects[k] = { name: v.name, icon: v.icon };
+    CONFIG.DND5E.statusEffects[k] = { name: v.name, img: v.img };
   };
 
 }
