@@ -13,7 +13,7 @@ import { loadWeaponIDsEdits } from "./mass-system-edits/weapon-ids.mjs";
 Hooks.on("init", async () => {
 
   console.log("ME5E Module is Active. System edits are loading.");
-  // loadConditionTypesEdits();
+  loadConditionTypesEdits();
   loadConsumablesEdits();
   loadCurrenciesEdits();
   loadEquipmentTypesEdits();

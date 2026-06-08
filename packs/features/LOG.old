@@ -1,3 +1,7 @@
-2026/06/08-09:49:09.076 1cd4 Recovering log #522
-2026/06/08-09:49:09.079 1cd4 Delete type=0 #522
-2026/06/08-09:49:09.079 1cd4 Delete type=3 #521
+2026/06/08-09:51:29.488 6dbc Recovering log #524
+2026/06/08-09:51:29.491 6dbc Delete type=0 #524
+2026/06/08-09:51:29.492 6dbc Delete type=3 #523
+2026/06/08-10:07:43.121 7858 Compacting 2@0 + 0@1 files
+2026/06/08-10:07:43.132 7858 Generated table #527@0: 828 keys, 640336 bytes
+2026/06/08-10:07:43.132 7858 Compacted 2@0 + 0@1 files => 640336 bytes
+2026/06/08-10:07:43.133 7858 compacted to: files[ 0 1 0 0 0 0 0 ]
