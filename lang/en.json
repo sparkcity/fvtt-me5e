@@ -12,6 +12,11 @@
             "equipTypeWeaponMod": "Weapon Mod",
             "equipTypeBodyArmor": "Body Armor"
         },
+        "miscEquipmentTypes": {
+            "miscEquipTypeProgram": "Program",
+            "miscEquipTypeeArmorMod": "Armor Mod",
+            "miscEquipTypeWeaponMod": "Weapon Mod"
+        },
         "consumableTypes": {
             "consumTypeSUProgram": "Single-Use Program",
             "consumTypeGrenade": "Grenade",
