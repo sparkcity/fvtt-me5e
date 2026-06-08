@@ -54,6 +54,11 @@ export const loadConditionTypesEdits = function () {
     });
     CONFIG.DND5E.conditionTypes[k] = { ...v, pseudo: false };
     CONFIG.DND5E.statusEffects[k] = { name: v.name, img: v.img };
+  if (CONFIG.DND5E.statusEffects[k].icon === undefined) {
+    delete CONFIG.DND5E.statusEffects[k].icon;
+    }
   };
+
+  console.log(Object.keys(CONFIG.DND5E.statusEffects["indoctrinated"]));
 
 }
