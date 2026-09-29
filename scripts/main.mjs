@@ -9,8 +9,9 @@ import { loadSpellSchoolEdits } from "./mass-system-edits/spell-schools.mjs";
 import { loadToolProficienciesEdits } from "./mass-system-edits/tool-proficiencies.mjs";
 import { loadWeaponIDsEdits } from "./mass-system-edits/weapon-ids.mjs";
 
-
-Hooks.on("init", async () => {
+Hooks.on("init", () => {
+  if (game.modules.get("fvtt-me5e")?.active && globalThis.__ME5E_LOADED__) return;
+  globalThis.__ME5E_LOADED__ = true;
 
   console.log("ME5E Module is Active. System edits are loading.");
   loadConditionTypesEdits();
@@ -24,5 +25,4 @@ Hooks.on("init", async () => {
   loadToolProficienciesEdits();
   loadWeaponIDsEdits();
   console.log("ME5E Module system edits have been loaded.");
-
 });
