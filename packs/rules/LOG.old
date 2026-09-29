@@ -1,3 +1,5 @@
-2026/02/26-18:29:01.885 60d4 Recovering log #187
-2026/02/26-18:29:01.888 60d4 Delete type=0 #187
-2026/02/26-18:29:01.888 60d4 Delete type=3 #186
+2026/09/29-09:03:09.099 4b00 Log #191: 0 ops saved to Table #192 OK
+2026/09/29-09:03:09.100 4b00 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules/000191.log: OK
+2026/09/29-09:03:09.101 4b00 Table #119: 55 entries OK
+2026/09/29-09:03:09.103 4b00 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules/MANIFEST-000190: OK
+2026/09/29-09:03:09.105 4b00 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\rules; recovered 1 files; 45487 bytes. Some data may have been lost. ****

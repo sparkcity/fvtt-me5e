@@ -1,3 +1,8 @@
-2026/02/26-18:29:01.830 60d4 Recovering log #396
-2026/02/26-18:29:01.833 60d4 Delete type=0 #396
-2026/02/26-18:29:01.833 60d4 Delete type=3 #395
+2026/09/29-09:03:08.993 45dc Log #400: 61 ops saved to Table #401 OK
+2026/09/29-09:03:08.994 45dc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles/000400.log: OK
+2026/09/29-09:03:08.997 45dc Table #324: 67 entries OK
+2026/09/29-09:03:08.999 45dc Table #369: 22 entries OK
+2026/09/29-09:03:09.002 45dc Table #393: 78 entries OK
+2026/09/29-09:03:09.002 45dc Table #401: 61 entries OK
+2026/09/29-09:03:09.004 45dc Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles/MANIFEST-000399: OK
+2026/09/29-09:03:09.006 45dc **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\vehicles; recovered 4 files; 372202 bytes. Some data may have been lost. ****

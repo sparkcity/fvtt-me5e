@@ -1,3 +1,6 @@
-2026/02/26-18:29:01.854 4c20 Recovering log #216
-2026/02/26-18:29:01.856 4c20 Delete type=0 #216
-2026/02/26-18:29:01.856 4c20 Delete type=3 #215
+2026/09/29-09:03:09.050 6f8 Log #220: 489 ops saved to Table #221 OK
+2026/09/29-09:03:09.051 6f8 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary/000220.log: OK
+2026/09/29-09:03:09.053 6f8 Table #148: 201 entries OK
+2026/09/29-09:03:09.054 6f8 Table #221: 489 entries OK
+2026/09/29-09:03:09.056 6f8 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary/MANIFEST-000219: OK
+2026/09/29-09:03:09.059 6f8 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\bestiary; recovered 2 files; 734022 bytes. Some data may have been lost. ****
