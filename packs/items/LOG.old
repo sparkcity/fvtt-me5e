@@ -1,7 +1,3 @@
-2026/09/29-09:03:08.887 6f8 Log #587: 18 ops saved to Table #588 OK
-2026/09/29-09:03:08.889 6f8 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items/000587.log: OK
-2026/09/29-09:03:08.893 6f8 Table #578: 605 entries OK
-2026/09/29-09:03:08.894 6f8 Table #580: 9 entries OK
-2026/09/29-09:03:08.894 6f8 Table #588: 18 entries OK
-2026/09/29-09:03:08.896 6f8 Archiving C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items/MANIFEST-000586: OK
-2026/09/29-09:03:08.898 6f8 **** Repaired leveldb C:\Users\starr\AppData\Local\FoundryVTT\Data\modules\fvtt-me5e\packs\items; recovered 3 files; 706065 bytes. Some data may have been lost. ****
+2026/09/29-09:33:06.228 5e6c Recovering log #593
+2026/09/29-09:33:06.231 5e6c Delete type=0 #593
+2026/09/29-09:33:06.231 5e6c Delete type=3 #592

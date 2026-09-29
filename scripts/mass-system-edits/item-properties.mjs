@@ -1,7 +1,4 @@
 export const loadItemPropertiesEdits = function () {
-
-
-  // Add ME5E item properties and push to validProperties so they're available on item sheets
   const me5eItemProps = {
     arc: "ME5E.weaponProperties.weaponPropArc",
     bst: "ME5E.weaponProperties.weaponPropBurst",
@@ -11,12 +8,18 @@ export const loadItemPropertiesEdits = function () {
     snt: "ME5E.weaponProperties.weaponPropSilent",
     coi: "ME5E.weaponProperties.weaponPropRecoil",
     vnt: "ME5E.weaponProperties.weaponPropVented",
-    mle: "ME5E.weaponProperties.weaponPropMelee",
+    mle: "ME5E.weaponProperties.weaponPropMelee"
   };
 
-  for (const [k, v] of Object.entries(me5eItemProps)) {
-    CONFIG.DND5E.itemProperties[k] = { label: v };
+  CONFIG.DND5E.itemProperties ??= {};
+  CONFIG.DND5E.validProperties ??= {};
+  CONFIG.DND5E.validProperties.weapon ??= new Set();
+
+  Object.assign(CONFIG.DND5E.itemProperties, Object.fromEntries(
+    Object.entries(me5eItemProps).map(([k, v]) => [k, { label: v }])
+  ));
+
+  for (const k of Object.keys(me5eItemProps)) {
     CONFIG.DND5E.validProperties.weapon.add(k);
   }
-
-}
+};
